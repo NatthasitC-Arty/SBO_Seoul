@@ -1544,3 +1544,2007 @@
 [2026-06-15 12:05:37][OK]   [main] 'คำสั่ง' server '192.168.0.216' -> '172.17.0.22' db SBO_SFC_TST -> SBO_Seoul_Clinic
 [2026-06-15 12:05:37][OK]   saved 1 table(s)
 [2026-06-15 12:05:37][INFO] === Done. ok=75  err=0  skipped=0  total=75 ===
+[2026-06-15 15:13:26][INFO] === Set-DatasourceLocation start ===
+[2026-06-15 15:13:26][INFO] Path=C:\GitHub\SBO_Seoul\Form-Layout  NewServer=172.17.0.22  OldServer=  NewDatabase=  NewUser=  WhatIf=False
+[2026-06-15 15:13:26][INFO] Found 75 report file(s).
+[2026-06-15 15:13:26][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\1. Financials\1.Journal Entry_ใบบันทึกรายการบัญชี\1.Journal Entry_ใบบันทึกรายการบัญชี.rpt
+[2026-06-15 15:13:27][OK]   [main] 'Bank_JE' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:27][OK]   [main] 'Command_Addrees' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:27][OK]   [main] 'Create_Sign' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:27][OK]   saved 3 table(s)
+[2026-06-15 15:13:27][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\1.Sale Quotation_ใบเสนอราคาขาย_(Dis) ENG.rpt
+[2026-06-15 15:13:28][OK]   [main] 'AR_SQ' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:28][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:28][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:28][OK]   [main] 'Approve' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:28][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:28][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:28][OK]   saved 6 table(s)
+[2026-06-15 15:13:28][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\1.Sale Quotation_ใบเสนอราคาขาย_(Dis).rpt
+[2026-06-15 15:13:28][OK]   [main] 'AR_SQ' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:28][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:28][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:28][OK]   [main] 'Approve' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:28][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:28][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:29][OK]   saved 6 table(s)
+[2026-06-15 15:13:29][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\2. Sales Order\1.Sale Order_ใบสั่งขาย_(Dis)\1.Sale Order_ใบสั่งขาย_(Dis).rpt
+[2026-06-15 15:13:29][OK]   [main] 'AR_SO' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:29][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:29][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:29][OK]   [main] 'Approve' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:29][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:29][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:29][OK]   saved 6 table(s)
+[2026-06-15 15:13:30][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\3. Delivery\2.Delivery_ใบส่งของ_(Batch_Serial)\1.Delivery_ใบส่งของ_Eng (Batch_Serial).rpt
+[2026-06-15 15:13:30][OK]   [main] 'AR_Delivery_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:30][OK]   [main] 'address_eng' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:30][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:30][OK]   [sub:Batch/Serial] 'AR_Drlivery_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:30][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:30][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:30][OK]   saved 6 table(s)
+[2026-06-15 15:13:30][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\3. Delivery\2.Delivery_ใบส่งของ_(Batch_Serial)\2.Delivery_ใบส่งของ_(Batch_Serial).rpt
+[2026-06-15 15:13:31][OK]   [main] 'AR_Delivery_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:31][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:31][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:31][OK]   [sub:Batch/Serial] 'AR_Drlivery_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:31][OK]   [sub:Haed_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:31][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:31][OK]   saved 6 table(s)
+[2026-06-15 15:13:31][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\4. Return\2.Retrun_ใบรับคืนสินค้า_(Batch_Serial)\1.Retrun_ใบรับคืนสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:13:31][OK]   [main] 'AR_Retrun_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:31][OK]   [main] 'OADM' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:31][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:31][OK]   [sub:Batch/Serial] 'AR_Retrun_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:31][OK]   [sub:Head_Sup] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:31][OK]   [sub:Line_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:31][OK]   saved 6 table(s)
+[2026-06-15 15:13:32][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\4. Return\2.Retrun_ใบรับคืนสินค้า_(Batch_Serial)\1.Retrun_ใบรับคืนสินค้า_ENG (Batch_Serial).rpt
+[2026-06-15 15:13:32][OK]   [main] 'AR_Retrun_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:32][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:32][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:32][OK]   [sub:Batch/Serial] 'AR_Retrun_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:32][OK]   [sub:Head_Sup] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:32][OK]   [sub:Line_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:32][OK]   saved 6 table(s)
+[2026-06-15 15:13:32][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ\1.AR Down Payment_ENG ใบเสร็จรับเงินมัดจำ.rpt
+[2026-06-15 15:13:32][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:32][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:32][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:32][OK]   [sub:Hreport] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:32][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:33][OK]   saved 5 table(s)
+[2026-06-15 15:13:33][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ.rpt
+[2026-06-15 15:13:33][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:33][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:33][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:33][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:33][OK]   [sub:head remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:33][OK]   saved 5 table(s)
+[2026-06-15 15:13:33][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี\2.AR Down PaymentTax Invoice_ENG ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:13:34][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:34][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:34][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:34][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:34][OK]   [sub:hmark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:34][OK]   saved 5 table(s)
+[2026-06-15 15:13:34][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:13:34][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:34][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:34][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:34][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:34][OK]   saved 4 table(s)
+[2026-06-15 15:13:34][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\3.AR Down Payment Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี\3.AR Down PaymentTax Invoice_ENG ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:13:35][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:35][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:35][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:35][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:35][OK]   [sub:hmark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:35][OK]   saved 5 table(s)
+[2026-06-15 15:13:35][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\3.AR Down Payment Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี\3.AR Down PaymentTax Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:13:35][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:35][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:35][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:35][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:35][OK]   [sub:hmark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:35][OK]   saved 5 table(s)
+[2026-06-15 15:13:35][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\2.AR Invoice_ใบแจ้งหนี้_(Dis)\2.AR Invoice_ENG ใบแจ้งหนี้_(Dis).rpt
+[2026-06-15 15:13:35][OK]   [main] 'AR_INV' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:35][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:35][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:35][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:35][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:35][OK]   saved 5 table(s)
+[2026-06-15 15:13:36][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\2.AR Invoice_ใบแจ้งหนี้_(Dis)\2.AR Invoice_ใบแจ้งหนี้_(Dis).rpt
+[2026-06-15 15:13:36][OK]   [main] 'AR_INV' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:36][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:36][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:36][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:36][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:36][OK]   saved 5 table(s)
+[2026-06-15 15:13:36][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis)\4.BillingAR InvoiceTax Invoice_ENG ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis).rpt
+[2026-06-15 15:13:37][OK]   [main] 'AR_INV' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:37][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:37][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:37][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:37][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:37][OK]   saved 5 table(s)
+[2026-06-15 15:13:37][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis)\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis).rpt
+[2026-06-15 15:13:38][OK]   [main] 'AR_INV' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:38][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:38][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:38][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:38][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:38][OK]   saved 5 table(s)
+[2026-06-15 15:13:38][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis)\6.BillingAR Invoice_ENG ใบวางบิลใบแจ้งหนี้ (Dis).rpt
+[2026-06-15 15:13:38][OK]   [main] 'AR_INV' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:38][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:38][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:38][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:38][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:38][OK]   saved 5 table(s)
+[2026-06-15 15:13:39][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis)\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis).rpt
+[2026-06-15 15:13:39][OK]   [main] 'AR_INV' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:39][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:39][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:39][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:39][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:39][OK]   saved 5 table(s)
+[2026-06-15 15:13:39][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\1.AR_Credit Memo_ใบลดหนี้ แก้ไขยอดเงิน\1.AR_Credit Memo_ENG ใบลดหนี้ แก้ไขยอดเงิน.rpt
+[2026-06-15 15:13:40][OK]   [main] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:40][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:40][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:40][OK]   [sub:Batch/Serial] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:40][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:40][OK]   [sub:Text] 'AR_CN_BS_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:40][OK]   saved 6 table(s)
+[2026-06-15 15:13:40][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\1.AR_Credit Memo_ใบลดหนี้ แก้ไขยอดเงิน\1.AR_Credit Memo_ใบลดหนี้ แก้ไขยอดเงิน.rpt
+[2026-06-15 15:13:40][OK]   [main] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:40][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:40][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:40][OK]   [sub:Batch/Serial] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:40][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:40][OK]   [sub:Text] 'AR_CN_BS_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:40][OK]   saved 6 table(s)
+[2026-06-15 15:13:40][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\2.AR_Credit Memo_ใบลดหนี้_(Dis)\2.AR_Credit Memo_ENG ใบลดหนี้_(Dis) แก้ไขยอดเงิน.rpt
+[2026-06-15 15:13:41][OK]   [main] 'AR_CN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:41][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:41][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:41][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:41][OK]   [sub:Text] 'AR_CN_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:41][OK]   saved 5 table(s)
+[2026-06-15 15:13:41][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\2.AR_Credit Memo_ใบลดหนี้_(Dis)\2.AR_Credit Memo_ใบลดหนี้_(Dis) แก้ไขยอดเงิน.rpt
+[2026-06-15 15:13:41][OK]   [main] 'AR_CN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:41][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:41][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:41][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:41][OK]   [sub:Text] 'AR_CN_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:41][OK]   saved 5 table(s)
+[2026-06-15 15:13:41][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\3.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) แก้ไขยอดเงิน\3.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) แก้ไขยอดเงิน.rpt
+[2026-06-15 15:13:42][OK]   [main] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:42][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:42][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:42][OK]   [sub:Batch/Serial] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:42][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:42][OK]   [sub:Text] 'AR_CN_BS_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:42][OK]   saved 6 table(s)
+[2026-06-15 15:13:42][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\3.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) แก้ไขยอดเงิน\3.AR_Credit Memo_ใบลดหนี้_ENG (Batch_Serial) แก้ไขยอดเงิน.rpt
+[2026-06-15 15:13:42][OK]   [main] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:42][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:42][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:42][OK]   [sub:Batch/Serial] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:42][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:42][OK]   [sub:Text] 'AR_CN_BS_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:42][OK]   saved 6 table(s)
+[2026-06-15 15:13:42][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis)\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis).rpt
+[2026-06-15 15:13:42][OK]   [main] 'AR_CN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:42][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:42][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:42][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:42][OK]   [sub:Text] 'AR_CN_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:43][OK]   saved 5 table(s)
+[2026-06-15 15:13:43][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis)\4.AR_Credit Memo_ใบลดหนี้_ENG (Batch_Serial) (Dis).rpt
+[2026-06-15 15:13:43][OK]   [main] 'AR_CN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:43][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:43][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:43][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:43][OK]   [sub:Text] 'AR_CN_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:43][OK]   saved 5 table(s)
+[2026-06-15 15:13:43][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\1. Purchase Request\1.Purchase Request_TH_ใบขอซื้อ\1.Purchase Request_TH_ใบขอซื้อ.rpt
+[2026-06-15 15:13:44][OK]   [main] 'AP_PR' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:44][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:44][OK]   [main] 'Approve' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:44][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:44][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:44][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:44][OK]   saved 6 table(s)
+[2026-06-15 15:13:44][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\2. Purchase Quotation\1.Purchase Quotation_ใบเสนอราคาซื้อ\1.Purchase Quotation_ใบเสนอราคาซื้อ.rpt
+[2026-06-15 15:13:44][OK]   [main] 'AP_PQ' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:44][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:44][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:44][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:44][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:44][OK]   saved 5 table(s)
+[2026-06-15 15:13:44][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_ENG_ใบสั่งซื้อ.rpt
+[2026-06-15 15:13:45][OK]   [main] 'AP_PO' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:45][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:45][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:45][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:45][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:45][OK]   saved 5 table(s)
+[2026-06-15 15:13:45][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_TH_ใบสั่งซื้อ.rpt
+[2026-06-15 15:13:45][OK]   [main] 'AP_PO' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:45][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:45][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:45][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:45][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:45][OK]   saved 5 table(s)
+[2026-06-15 15:13:45][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\4. Goods Receipt PO\2.Goods Receive PO_TH_ใบรับสินค้า_(Batch_Serial) - Copy\2.Goods Reciept PO_TH_ใบรับสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:13:45][OK]   [main] 'AP_GRPO_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:45][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:45][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:45][OK]   [sub:Batch/Serial] 'AP_GRPO_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:45][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:45][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:46][OK]   saved 6 table(s)
+[2026-06-15 15:13:46][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\5. Goods Return\2.Goods Return_EN_ใบส่งคืนสินค้า_(Batch_Serial)\2.Goods Return_TH_ใบส่งคืนสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:13:46][OK]   [main] 'AP_GR_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:46][OK]   [main] 'Company' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:46][OK]   [sub:Head_Sub] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:46][OK]   [sub:Remark] 'Remark' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:46][OK]   [sub:batch&serial] 'AP_GR_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:46][OK]   saved 5 table(s)
+[2026-06-15 15:13:46][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\1.AP Down Payment ใบจ่ายเงินมัดจำ\1.AP Down Payment_ENG ใบจ่ายเงินมัดจำ.rpt
+[2026-06-15 15:13:46][OK]   [main] 'AP_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:46][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:46][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:46][OK]   [sub:H remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:46][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:46][OK]   saved 5 table(s)
+[2026-06-15 15:13:46][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\1.AP Down Payment ใบจ่ายเงินมัดจำ\1.AP Down Payment_ใบจ่ายเงินมัดจำ.rpt
+[2026-06-15 15:13:47][OK]   [main] 'AP_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:47][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:47][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:47][OK]   [sub:H remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:47][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:47][OK]   saved 5 table(s)
+[2026-06-15 15:13:47][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำ_ใบแจ้งหนี้\2.AP Down Payment Invoice_ENG ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:13:47][OK]   [main] 'AP_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:47][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:47][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:47][OK]   [sub:H remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:47][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:47][OK]   saved 5 table(s)
+[2026-06-15 15:13:47][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำ_ใบแจ้งหนี้\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:13:48][OK]   [main] 'AP_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:48][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:48][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:48][OK]   [sub:HaedRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:48][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:48][OK]   saved 5 table(s)
+[2026-06-15 15:13:48][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\1.AP Invoice_ใบแจ้งหนี้\1.AP Invoice_ใบแจ้งหนี้.rpt
+[2026-06-15 15:13:48][OK]   [main] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:48][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:48][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:48][OK]   [sub:HaedRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:48][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:48][OK]   saved 5 table(s)
+[2026-06-15 15:13:49][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\2.AP Invoice_ใบแจ้งหนี้_(Batch_Serial)\2.AP Invoice_ใบแจ้งหนี้_(Batch_Serial).rpt
+[2026-06-15 15:13:49][OK]   [main] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:49][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:49][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:49][OK]   [sub:HeadRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:49][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:49][OK]   [sub:batch&sserial] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:49][OK]   saved 6 table(s)
+[2026-06-15 15:13:49][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี\3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี(Batch_Serial).rpt
+[2026-06-15 15:13:49][OK]   [main] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:49][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:49][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:49][OK]   [sub:HeadRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:49][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:49][OK]   [sub:batch&sserial] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:50][OK]   saved 6 table(s)
+[2026-06-15 15:13:50][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี\3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี.rpt
+[2026-06-15 15:13:50][OK]   [main] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:50][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:50][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:50][OK]   [sub:TEXT] 'AP_INV_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:50][OK]   saved 4 table(s)
+[2026-06-15 15:13:50][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\4.AP Debit Note_ใบเพิ่มหนี้\4.AP Debit Note_ใบเพิ่มหนี้.rpt
+[2026-06-15 15:13:51][OK]   [main] 'AP_INV' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:51][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:51][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:51][OK]   [sub:TEXT] 'AR_INV_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:51][OK]   saved 4 table(s)
+[2026-06-15 15:13:51][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\8. AP Credit Memo\1.AP Credit Memo_ใบลดหนี้\1.AP Credit Memo_ใบลดหนี้.rpt
+[2026-06-15 15:13:51][OK]   [main] 'AP_CN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:51][OK]   [main] 'HAddress' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:51][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:51][OK]   [sub:HeadRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:51][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:51][OK]   saved 5 table(s)
+[2026-06-15 15:13:51][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\9. Landed Costs\1.Landed Costs_ใบปรับราคาต้นทุนสินค้า\1.Landed Costs_ใบปรับราคาต้นทุนสินค้า.rpt
+[2026-06-15 15:13:52][OK]   [main] 'Landed_Cost' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:52][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:52][OK]   [sub:Landed_Cost] 'Landed_Cost' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:52][OK]   saved 3 table(s)
+[2026-06-15 15:13:52][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\1.Incoming Payments_ใบเสร็จรับเงิน\1.Incoming Payments_Eng ใบเสร็จรับเงิน.rpt
+[2026-06-15 15:13:52][OK]   [main] 'Bank_Receipt' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:52][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:52][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:52][OK]   [sub:CheckNum] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:53][OK]   saved 4 table(s)
+[2026-06-15 15:13:53][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\1.Incoming Payments_ใบเสร็จรับเงิน\1.Incoming Payments_ใบเสร็จรับเงิน.rpt
+[2026-06-15 15:13:53][OK]   [main] 'Bank_Receipt' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:53][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:53][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:53][OK]   [sub:CheckNum] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:53][OK]   saved 4 table(s)
+[2026-06-15 15:13:53][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี\2.Incoming Payments_ ENG ใบเสร็จรับเงินใบกำกับภาษี.rpt
+[2026-06-15 15:13:53][OK]   [main] 'Bank_ReceiptTax' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:53][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:53][OK]   [sub:CheckNum] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:53][OK]   saved 3 table(s)
+[2026-06-15 15:13:54][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี.rpt
+[2026-06-15 15:13:54][OK]   [main] 'Bank_ReceiptTax' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:54][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:54][OK]   [sub:CheckNum] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:54][OK]   saved 3 table(s)
+[2026-06-15 15:13:55][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\2. Outgoing Payments\1.Outgoing Payments_ใบจ่ายชำระ\1.Outgoing Payments_ENG ใบจ่ายชำระ.rpt
+[2026-06-15 15:13:55][OK]   [main] 'Bank_Payment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:55][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:55][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:55][OK]   [sub:Bank] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:55][OK]   [sub:Cash] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:55][OK]   [sub:Credit Card] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:55][OK]   [sub:JE] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:55][OK]   [sub:Report] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:55][OK]   [sub:TranFer] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:55][OK]   saved 9 table(s)
+[2026-06-15 15:13:56][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\2. Outgoing Payments\1.Outgoing Payments_ใบจ่ายชำระ\1.Outgoing Payments_ใบจ่ายชำระ.rpt
+[2026-06-15 15:13:56][OK]   [main] 'Bank_Payment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:56][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:56][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:56][OK]   [sub:Bank] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:56][OK]   [sub:Cash] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:56][OK]   [sub:Credit Card] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:56][OK]   [sub:JE] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:56][OK]   [sub:Report] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:56][OK]   [sub:TranFer] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:56][OK]   saved 9 table(s)
+[2026-06-15 15:13:56][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\1.Goods Receipt_ใบรับสินค้า\1.Goods Receipt_ENG ใบรับสินค้า.rpt
+[2026-06-15 15:13:56][OK]   [main] 'G_Receipt' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:56][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:56][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:56][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:56][OK]   saved 4 table(s)
+[2026-06-15 15:13:57][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\1.Goods Receipt_ใบรับสินค้า\1.Goods Receipt_ใบรับสินค้า.rpt
+[2026-06-15 15:13:57][OK]   [main] 'G_Receipt' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:57][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:57][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:57][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:57][OK]   saved 4 table(s)
+[2026-06-15 15:13:57][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial)\2.Goods Receipt_ENG ใบรับสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:13:58][OK]   [main] 'G_Receipt' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:58][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:58][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:58][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:58][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:58][OK]   saved 5 table(s)
+[2026-06-15 15:13:58][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial)\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:13:58][OK]   [main] 'G_Receipt' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:58][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:58][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:58][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:58][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:58][OK]   saved 5 table(s)
+[2026-06-15 15:13:58][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\1.Goods Issue_ใบเบิกสินค้า\1.Goods Issue_ENG ใบเบิกสินค้า.rpt
+[2026-06-15 15:13:58][OK]   [main] 'G_Issue_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:58][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:58][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:58][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:58][OK]   saved 4 table(s)
+[2026-06-15 15:13:58][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\1.Goods Issue_ใบเบิกสินค้า\1.Goods Issue_ใบเบิกสินค้า.rpt
+[2026-06-15 15:13:59][OK]   [main] 'G_Issue_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:59][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:59][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:59][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:13:59][OK]   saved 4 table(s)
+[2026-06-15 15:13:59][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial)\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:14:00][OK]   [main] 'G_Issue_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:00][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:00][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:00][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:00][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:00][OK]   saved 5 table(s)
+[2026-06-15 15:14:00][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial)\2.Goods Issue_ใบเบิกสินค้า_ENG (Batch_Serial).rpt
+[2026-06-15 15:14:00][OK]   [main] 'G_Issue_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:00][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:00][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:00][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:00][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:01][OK]   saved 5 table(s)
+[2026-06-15 15:14:01][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\3. Inventory Transfer Request\1.Inventory Transfer Request_ใบขอโอนสินค้า\1.Inventory Transfer Request_ใบขอโอนสินค้า.rpt
+[2026-06-15 15:14:01][OK]   [main] 'Transfer_Re' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:01][OK]   [main] 'Transfer_Re_Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:01][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:01][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:01][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:01][OK]   [sub:TEXT] 'Transfer_Re_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:01][OK]   saved 6 table(s)
+[2026-06-15 15:14:01][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\4. Inventory Transfer\2.Inventory Transfer_ใบโอนสินค้า(Batch_Serial)\2.Inventory Transfer_ใบโอนสินค้า.rpt
+[2026-06-15 15:14:01][OK]   [main] 'Transfer' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:01][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:01][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:01][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:01][OK]   [sub:TEXT] 'Transfer_Re_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:01][OK]   saved 5 table(s)
+[2026-06-15 15:14:01][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\4. Inventory Transfer\2.Inventory Transfer_ใบโอนสินค้า(Batch_Serial)\2.Inventory Transfer_ใบโอนสินค้า_TH_(Batch_Serial).rpt
+[2026-06-15 15:14:02][OK]   [main] 'Transfer' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:02][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:02][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:02][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:02][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:02][OK]   [sub:TEXT] 'Transfer_Re_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:02][OK]   saved 6 table(s)
+[2026-06-15 15:14:02][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\5. Inventory Counting\1.Inventory Counting_ใบตรวจนับสินค้า_Befor\1.Inventory Counting_ใบตรวจนับสินค้า_Befor.rpt
+[2026-06-15 15:14:02][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:02][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:02][OK]   saved 2 table(s)
+[2026-06-15 15:14:03][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\5. Inventory Counting\2.Inventory Counting_ใบหลังตรวจนับสินค้า_After\2.Inventory Counting_ใบหลังตรวจนับสินค้า_After.rpt
+[2026-06-15 15:14:03][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:03][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:03][OK]   saved 2 table(s)
+[2026-06-15 15:14:03][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\6. Inventory Revaluation\1.Inventory Revaluation_ใบปรับมูลค่า_Price\1.Inventory Revaluation_ใบปรับมูลค่า_Price.rpt
+[2026-06-15 15:14:04][OK]   [main] 'Inventory_Re' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:04][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:04][OK]   saved 2 table(s)
+[2026-06-15 15:14:04][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\6. Inventory Revaluation\2.Inventory Revaluation_ใบปรับมูลค่า_DebitCredit\2.Inventory Revaluation_ใบปรับมูลค่า_DebitCredit.rpt
+[2026-06-15 15:14:05][OK]   [main] 'Inven_Revalue' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:05][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:05][OK]   saved 2 table(s)
+[2026-06-15 15:14:05][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\1. Production Order\1.Production Order_ใบสั่งผลิต\1.Production Order_ใบสั่งผลิต.rpt
+[2026-06-15 15:14:05][OK]   [main] 'Prodution_Order' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:05][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:06][OK]   [sub:Text] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:06][OK]   saved 3 table(s)
+[2026-06-15 15:14:06][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\2. Receipt from Production\1.Receipt from Production_ใบรับสินค้าจากการผลิต\1.Receipt from Production_ใบรับสินค้าจากการผลิต.rpt
+[2026-06-15 15:14:06][OK]   [main] 'Receipt_f_Production' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:06][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:06][OK]   [sub:TEXT] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:06][OK]   saved 3 table(s)
+[2026-06-15 15:14:06][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\2. Receipt from Production\2.Receipt from Production_ใบรับสินค้าจากการผลิต_(Batch_Serial)\2.Receipt from Production_ใบรับสินค้าจากการผลิต_(Batch_Serial).rpt
+[2026-06-15 15:14:06][OK]   [main] 'Receipt_f_Prodution' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:06][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:06][OK]   [sub:B/S Number] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:06][OK]   [sub:TEXT] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:06][OK]   saved 4 table(s)
+[2026-06-15 15:14:07][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\3. Issue for Production\1.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต\1.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต.rpt
+[2026-06-15 15:14:07][OK]   [main] 'Issue_f_Prodution' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:07][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:07][OK]   [sub:TEXT] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:07][OK]   saved 3 table(s)
+[2026-06-15 15:14:07][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\3. Issue for Production\2.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต_(Batch_Serial)\2.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต_(Batch_Serial).rpt
+[2026-06-15 15:14:07][OK]   [main] 'Issue_f_Prodution' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:07][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:07][OK]   [sub:B/S Num] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:07][OK]   [sub:TEXT] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:07][OK]   saved 4 table(s)
+[2026-06-15 15:14:07][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\ทะเบียนสินทรัพย์\ทะเบียนสินทรัพย์.rpt
+[2026-06-15 15:14:08][OK]   [main] 'คำสั่ง' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:08][OK]   saved 1 table(s)
+[2026-06-15 15:14:08][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\รายการขายทรัพย์สิน เรียงตามรหัสสินทรัพย์\รายการขายทรัพย์สิน เรียงตามรหัสสินทรัพย์.rpt
+[2026-06-15 15:14:08][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:08][OK]   saved 1 table(s)
+[2026-06-15 15:14:08][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\รายการสินทรัพย์เข้าใหม่ เรียงตามรหัสสินทรัพย์\รายการสินทรัพย์เข้าใหม่ เรียงตามรหัสสินทรัพย์.rpt
+[2026-06-15 15:14:08][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:08][OK]   saved 1 table(s)
+[2026-06-15 15:14:09][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\รายงานค่าเสื่อมประจำเดือน สรุปตามกลุ่มสินทรัพย์\รายงานค่าเสื่อมประจำเดือน สรุปตามกลุ่มสินทรัพย์.rpt
+[2026-06-15 15:14:09][OK]   [main] 'คำสั่ง' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:14:09][OK]   saved 1 table(s)
+[2026-06-15 15:14:09][INFO] === Done. ok=75  err=0  skipped=0  total=75 ===
+[2026-06-15 15:17:09][INFO] === Set-DatasourceLocation start ===
+[2026-06-15 15:17:09][INFO] Path=C:\GitHub\SBO_Seoul\Form-Layout  NewServer=10.10.10.110  OldServer=  NewDatabase=  NewUser=  WhatIf=False
+[2026-06-15 15:17:09][INFO] Found 75 report file(s).
+[2026-06-15 15:17:09][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\1. Financials\1.Journal Entry_ใบบันทึกรายการบัญชี\1.Journal Entry_ใบบันทึกรายการบัญชี.rpt
+[2026-06-15 15:17:10][OK]   [main] 'Bank_JE' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:10][OK]   [main] 'Command_Addrees' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:10][OK]   [main] 'Create_Sign' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:10][OK]   saved 3 table(s)
+[2026-06-15 15:17:10][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\1.Sale Quotation_ใบเสนอราคาขาย_(Dis) ENG.rpt
+[2026-06-15 15:17:10][OK]   [main] 'AR_SQ' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:10][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:10][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:10][OK]   [main] 'Approve' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:10][OK]   [sub:Head_Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:10][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:10][OK]   saved 6 table(s)
+[2026-06-15 15:17:10][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\1.Sale Quotation_ใบเสนอราคาขาย_(Dis).rpt
+[2026-06-15 15:17:11][OK]   [main] 'AR_SQ' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:11][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:11][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:11][OK]   [main] 'Approve' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:11][OK]   [sub:Head_Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:11][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:11][OK]   saved 6 table(s)
+[2026-06-15 15:17:11][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\2. Sales Order\1.Sale Order_ใบสั่งขาย_(Dis)\1.Sale Order_ใบสั่งขาย_(Dis).rpt
+[2026-06-15 15:17:11][OK]   [main] 'AR_SO' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:11][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:11][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:12][OK]   [main] 'Approve' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:12][OK]   [sub:Hremark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:12][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:12][OK]   saved 6 table(s)
+[2026-06-15 15:17:12][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\3. Delivery\2.Delivery_ใบส่งของ_(Batch_Serial)\1.Delivery_ใบส่งของ_Eng (Batch_Serial).rpt
+[2026-06-15 15:17:12][OK]   [main] 'AR_Delivery_BS' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:12][OK]   [main] 'address_eng' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:12][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:12][OK]   [sub:Batch/Serial] 'AR_Drlivery_BS' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:12][OK]   [sub:Head_Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:12][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:12][OK]   saved 6 table(s)
+[2026-06-15 15:17:12][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\3. Delivery\2.Delivery_ใบส่งของ_(Batch_Serial)\2.Delivery_ใบส่งของ_(Batch_Serial).rpt
+[2026-06-15 15:17:12][OK]   [main] 'AR_Delivery_BS' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:12][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:13][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:13][OK]   [sub:Batch/Serial] 'AR_Drlivery_BS' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:13][OK]   [sub:Haed_Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:13][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:13][OK]   saved 6 table(s)
+[2026-06-15 15:17:13][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\4. Return\2.Retrun_ใบรับคืนสินค้า_(Batch_Serial)\1.Retrun_ใบรับคืนสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:17:13][OK]   [main] 'AR_Retrun_BS' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:13][OK]   [main] 'OADM' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:13][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:13][OK]   [sub:Batch/Serial] 'AR_Retrun_BS' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:13][OK]   [sub:Head_Sup] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:13][OK]   [sub:Line_Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:13][OK]   saved 6 table(s)
+[2026-06-15 15:17:14][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\4. Return\2.Retrun_ใบรับคืนสินค้า_(Batch_Serial)\1.Retrun_ใบรับคืนสินค้า_ENG (Batch_Serial).rpt
+[2026-06-15 15:17:14][OK]   [main] 'AR_Retrun_BS' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:14][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:14][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:14][OK]   [sub:Batch/Serial] 'AR_Retrun_BS' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:14][OK]   [sub:Head_Sup] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:14][OK]   [sub:Line_Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:14][OK]   saved 6 table(s)
+[2026-06-15 15:17:14][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ\1.AR Down Payment_ENG ใบเสร็จรับเงินมัดจำ.rpt
+[2026-06-15 15:17:14][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:14][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:14][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:14][OK]   [sub:Hreport] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:14][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:14][OK]   saved 5 table(s)
+[2026-06-15 15:17:15][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ.rpt
+[2026-06-15 15:17:15][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:15][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:15][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:15][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:15][OK]   [sub:head remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:15][OK]   saved 5 table(s)
+[2026-06-15 15:17:15][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี\2.AR Down PaymentTax Invoice_ENG ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:17:15][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:15][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:15][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:15][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:15][OK]   [sub:hmark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:15][OK]   saved 5 table(s)
+[2026-06-15 15:17:15][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:17:16][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:16][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:16][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:16][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:16][OK]   saved 4 table(s)
+[2026-06-15 15:17:16][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\3.AR Down Payment Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี\3.AR Down PaymentTax Invoice_ENG ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:17:16][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:16][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:16][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:16][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:16][OK]   [sub:hmark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:16][OK]   saved 5 table(s)
+[2026-06-15 15:17:16][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\3.AR Down Payment Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี\3.AR Down PaymentTax Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:17:17][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:17][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:17][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:17][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:17][OK]   [sub:hmark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:17][OK]   saved 5 table(s)
+[2026-06-15 15:17:17][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\2.AR Invoice_ใบแจ้งหนี้_(Dis)\2.AR Invoice_ENG ใบแจ้งหนี้_(Dis).rpt
+[2026-06-15 15:17:17][OK]   [main] 'AR_INV' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:17][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:17][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:17][OK]   [sub:HRemark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:17][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:17][OK]   saved 5 table(s)
+[2026-06-15 15:17:17][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\2.AR Invoice_ใบแจ้งหนี้_(Dis)\2.AR Invoice_ใบแจ้งหนี้_(Dis).rpt
+[2026-06-15 15:17:18][OK]   [main] 'AR_INV' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:18][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:18][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:18][OK]   [sub:HRemark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:18][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:18][OK]   saved 5 table(s)
+[2026-06-15 15:17:18][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis)\4.BillingAR InvoiceTax Invoice_ENG ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis).rpt
+[2026-06-15 15:17:19][OK]   [main] 'AR_INV' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:19][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:19][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:19][OK]   [sub:HRemark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:19][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:19][OK]   saved 5 table(s)
+[2026-06-15 15:17:19][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis)\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis).rpt
+[2026-06-15 15:17:19][OK]   [main] 'AR_INV' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:19][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:19][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:19][OK]   [sub:HRemark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:19][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:19][OK]   saved 5 table(s)
+[2026-06-15 15:17:19][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis)\6.BillingAR Invoice_ENG ใบวางบิลใบแจ้งหนี้ (Dis).rpt
+[2026-06-15 15:17:19][OK]   [main] 'AR_INV' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:19][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:19][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:19][OK]   [sub:HRemark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:19][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:20][OK]   saved 5 table(s)
+[2026-06-15 15:17:20][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis)\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis).rpt
+[2026-06-15 15:17:20][OK]   [main] 'AR_INV' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:20][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:20][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:20][OK]   [sub:HRemark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:20][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:20][OK]   saved 5 table(s)
+[2026-06-15 15:17:20][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\1.AR_Credit Memo_ใบลดหนี้ แก้ไขยอดเงิน\1.AR_Credit Memo_ENG ใบลดหนี้ แก้ไขยอดเงิน.rpt
+[2026-06-15 15:17:20][OK]   [main] 'AR_CN_BS' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:20][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:20][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:20][OK]   [sub:Batch/Serial] 'AR_CN_BS' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:20][OK]   [sub:HREMARK] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:20][OK]   [sub:Text] 'AR_CN_BS_Text' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:20][OK]   saved 6 table(s)
+[2026-06-15 15:17:20][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\1.AR_Credit Memo_ใบลดหนี้ แก้ไขยอดเงิน\1.AR_Credit Memo_ใบลดหนี้ แก้ไขยอดเงิน.rpt
+[2026-06-15 15:17:21][OK]   [main] 'AR_CN_BS' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:21][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:21][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:21][OK]   [sub:Batch/Serial] 'AR_CN_BS' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:21][OK]   [sub:HREMARK] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:21][OK]   [sub:Text] 'AR_CN_BS_Text' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:21][OK]   saved 6 table(s)
+[2026-06-15 15:17:21][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\2.AR_Credit Memo_ใบลดหนี้_(Dis)\2.AR_Credit Memo_ENG ใบลดหนี้_(Dis) แก้ไขยอดเงิน.rpt
+[2026-06-15 15:17:21][OK]   [main] 'AR_CN' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:21][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:21][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:21][OK]   [sub:HREMARK] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:21][OK]   [sub:Text] 'AR_CN_Text' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:21][OK]   saved 5 table(s)
+[2026-06-15 15:17:22][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\2.AR_Credit Memo_ใบลดหนี้_(Dis)\2.AR_Credit Memo_ใบลดหนี้_(Dis) แก้ไขยอดเงิน.rpt
+[2026-06-15 15:17:22][OK]   [main] 'AR_CN' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:22][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:22][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:22][OK]   [sub:HREMARK] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:22][OK]   [sub:Text] 'AR_CN_Text' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:23][OK]   saved 5 table(s)
+[2026-06-15 15:17:23][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\3.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) แก้ไขยอดเงิน\3.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) แก้ไขยอดเงิน.rpt
+[2026-06-15 15:17:23][OK]   [main] 'AR_CN_BS' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:23][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:23][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:23][OK]   [sub:Batch/Serial] 'AR_CN_BS' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:23][OK]   [sub:HREMARK] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:23][OK]   [sub:Text] 'AR_CN_BS_Text' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:23][OK]   saved 6 table(s)
+[2026-06-15 15:17:23][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\3.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) แก้ไขยอดเงิน\3.AR_Credit Memo_ใบลดหนี้_ENG (Batch_Serial) แก้ไขยอดเงิน.rpt
+[2026-06-15 15:17:23][OK]   [main] 'AR_CN_BS' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:23][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:23][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:23][OK]   [sub:Batch/Serial] 'AR_CN_BS' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:23][OK]   [sub:HREMARK] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:23][OK]   [sub:Text] 'AR_CN_BS_Text' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:24][OK]   saved 6 table(s)
+[2026-06-15 15:17:24][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis)\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis).rpt
+[2026-06-15 15:17:24][OK]   [main] 'AR_CN' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:24][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:24][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:24][OK]   [sub:HREMARK] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:24][OK]   [sub:Text] 'AR_CN_Text' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:24][OK]   saved 5 table(s)
+[2026-06-15 15:17:24][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis)\4.AR_Credit Memo_ใบลดหนี้_ENG (Batch_Serial) (Dis).rpt
+[2026-06-15 15:17:24][OK]   [main] 'AR_CN' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:24][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:24][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:24][OK]   [sub:HREMARK] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:24][OK]   [sub:Text] 'AR_CN_Text' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:25][OK]   saved 5 table(s)
+[2026-06-15 15:17:25][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\1. Purchase Request\1.Purchase Request_TH_ใบขอซื้อ\1.Purchase Request_TH_ใบขอซื้อ.rpt
+[2026-06-15 15:17:25][OK]   [main] 'AP_PR' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:25][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:25][OK]   [main] 'Approve' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:25][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:25][OK]   [sub:Hremark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:25][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:25][OK]   saved 6 table(s)
+[2026-06-15 15:17:26][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\2. Purchase Quotation\1.Purchase Quotation_ใบเสนอราคาซื้อ\1.Purchase Quotation_ใบเสนอราคาซื้อ.rpt
+[2026-06-15 15:17:26][OK]   [main] 'AP_PQ' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:26][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:26][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:26][OK]   [sub:Hremark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:26][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:26][OK]   saved 5 table(s)
+[2026-06-15 15:17:26][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_ENG_ใบสั่งซื้อ.rpt
+[2026-06-15 15:17:26][OK]   [main] 'AP_PO' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:26][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:26][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:26][OK]   [sub:Hremark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:26][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:27][OK]   saved 5 table(s)
+[2026-06-15 15:17:27][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_TH_ใบสั่งซื้อ.rpt
+[2026-06-15 15:17:27][OK]   [main] 'AP_PO' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:27][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:27][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:27][OK]   [sub:Hremark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:27][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:27][OK]   saved 5 table(s)
+[2026-06-15 15:17:27][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\4. Goods Receipt PO\2.Goods Receive PO_TH_ใบรับสินค้า_(Batch_Serial) - Copy\2.Goods Reciept PO_TH_ใบรับสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:17:27][OK]   [main] 'AP_GRPO_BN' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:27][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:27][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:27][OK]   [sub:Batch/Serial] 'AP_GRPO_BN' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:27][OK]   [sub:Hremark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:27][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:27][OK]   saved 6 table(s)
+[2026-06-15 15:17:27][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\5. Goods Return\2.Goods Return_EN_ใบส่งคืนสินค้า_(Batch_Serial)\2.Goods Return_TH_ใบส่งคืนสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:17:28][OK]   [main] 'AP_GR_BN' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:28][OK]   [main] 'Company' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:28][OK]   [sub:Head_Sub] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:28][OK]   [sub:Remark] 'Remark' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:28][OK]   [sub:batch&serial] 'AP_GR_BN' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:28][OK]   saved 5 table(s)
+[2026-06-15 15:17:28][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\1.AP Down Payment ใบจ่ายเงินมัดจำ\1.AP Down Payment_ENG ใบจ่ายเงินมัดจำ.rpt
+[2026-06-15 15:17:28][OK]   [main] 'AP_DownPayment' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:28][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:28][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:28][OK]   [sub:H remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:28][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:28][OK]   saved 5 table(s)
+[2026-06-15 15:17:28][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\1.AP Down Payment ใบจ่ายเงินมัดจำ\1.AP Down Payment_ใบจ่ายเงินมัดจำ.rpt
+[2026-06-15 15:17:29][OK]   [main] 'AP_DownPayment' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:29][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:29][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:29][OK]   [sub:H remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:29][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:29][OK]   saved 5 table(s)
+[2026-06-15 15:17:29][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำ_ใบแจ้งหนี้\2.AP Down Payment Invoice_ENG ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:17:29][OK]   [main] 'AP_DownPayment' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:29][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:29][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:29][OK]   [sub:H remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:29][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:29][OK]   saved 5 table(s)
+[2026-06-15 15:17:30][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำ_ใบแจ้งหนี้\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:17:30][OK]   [main] 'AP_DownPayment' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:30][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:30][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:30][OK]   [sub:HaedRemark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:30][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:30][OK]   saved 5 table(s)
+[2026-06-15 15:17:30][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\1.AP Invoice_ใบแจ้งหนี้\1.AP Invoice_ใบแจ้งหนี้.rpt
+[2026-06-15 15:17:31][OK]   [main] 'AP_INV_BN' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:31][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:31][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:31][OK]   [sub:HaedRemark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:31][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:31][OK]   saved 5 table(s)
+[2026-06-15 15:17:31][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\2.AP Invoice_ใบแจ้งหนี้_(Batch_Serial)\2.AP Invoice_ใบแจ้งหนี้_(Batch_Serial).rpt
+[2026-06-15 15:17:31][OK]   [main] 'AP_INV_BN' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:31][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:31][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:31][OK]   [sub:HeadRemark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:31][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:31][OK]   [sub:batch&sserial] 'AP_INV_BN' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:31][OK]   saved 6 table(s)
+[2026-06-15 15:17:32][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี\3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี(Batch_Serial).rpt
+[2026-06-15 15:17:32][OK]   [main] 'AP_INV_BN' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:32][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:32][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:32][OK]   [sub:HeadRemark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:32][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:32][OK]   [sub:batch&sserial] 'AP_INV_BN' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:32][OK]   saved 6 table(s)
+[2026-06-15 15:17:32][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี\3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี.rpt
+[2026-06-15 15:17:33][OK]   [main] 'AP_INV_BN' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:33][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:33][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:33][OK]   [sub:TEXT] 'AP_INV_Text' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:33][OK]   saved 4 table(s)
+[2026-06-15 15:17:33][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\4.AP Debit Note_ใบเพิ่มหนี้\4.AP Debit Note_ใบเพิ่มหนี้.rpt
+[2026-06-15 15:17:33][OK]   [main] 'AP_INV' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:33][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:33][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:33][OK]   [sub:TEXT] 'AR_INV_Text' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:33][OK]   saved 4 table(s)
+[2026-06-15 15:17:33][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\8. AP Credit Memo\1.AP Credit Memo_ใบลดหนี้\1.AP Credit Memo_ใบลดหนี้.rpt
+[2026-06-15 15:17:34][OK]   [main] 'AP_CN' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:34][OK]   [main] 'HAddress' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:34][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:34][OK]   [sub:HeadRemark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:34][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:34][OK]   saved 5 table(s)
+[2026-06-15 15:17:34][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\9. Landed Costs\1.Landed Costs_ใบปรับราคาต้นทุนสินค้า\1.Landed Costs_ใบปรับราคาต้นทุนสินค้า.rpt
+[2026-06-15 15:17:34][OK]   [main] 'Landed_Cost' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:34][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:34][OK]   [sub:Landed_Cost] 'Landed_Cost' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:34][OK]   saved 3 table(s)
+[2026-06-15 15:17:34][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\1.Incoming Payments_ใบเสร็จรับเงิน\1.Incoming Payments_Eng ใบเสร็จรับเงิน.rpt
+[2026-06-15 15:17:35][OK]   [main] 'Bank_Receipt' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:35][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:35][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:35][OK]   [sub:CheckNum] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:35][OK]   saved 4 table(s)
+[2026-06-15 15:17:35][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\1.Incoming Payments_ใบเสร็จรับเงิน\1.Incoming Payments_ใบเสร็จรับเงิน.rpt
+[2026-06-15 15:17:35][OK]   [main] 'Bank_Receipt' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:35][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:35][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:35][OK]   [sub:CheckNum] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:35][OK]   saved 4 table(s)
+[2026-06-15 15:17:35][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี\2.Incoming Payments_ ENG ใบเสร็จรับเงินใบกำกับภาษี.rpt
+[2026-06-15 15:17:35][OK]   [main] 'Bank_ReceiptTax' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:35][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:35][OK]   [sub:CheckNum] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:35][OK]   saved 3 table(s)
+[2026-06-15 15:17:36][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี.rpt
+[2026-06-15 15:17:36][OK]   [main] 'Bank_ReceiptTax' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:36][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:36][OK]   [sub:CheckNum] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:36][OK]   saved 3 table(s)
+[2026-06-15 15:17:36][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\2. Outgoing Payments\1.Outgoing Payments_ใบจ่ายชำระ\1.Outgoing Payments_ENG ใบจ่ายชำระ.rpt
+[2026-06-15 15:17:37][OK]   [main] 'Bank_Payment' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   [sub:Bank] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   [sub:Cash] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   [sub:Credit Card] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   [sub:JE] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   [sub:Report] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   [sub:TranFer] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   saved 9 table(s)
+[2026-06-15 15:17:37][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\2. Outgoing Payments\1.Outgoing Payments_ใบจ่ายชำระ\1.Outgoing Payments_ใบจ่ายชำระ.rpt
+[2026-06-15 15:17:37][OK]   [main] 'Bank_Payment' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   [sub:Bank] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   [sub:Cash] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   [sub:Credit Card] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   [sub:JE] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   [sub:Report] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   [sub:TranFer] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:37][OK]   saved 9 table(s)
+[2026-06-15 15:17:38][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\1.Goods Receipt_ใบรับสินค้า\1.Goods Receipt_ENG ใบรับสินค้า.rpt
+[2026-06-15 15:17:38][OK]   [main] 'G_Receipt' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:38][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:38][OK]   [sub:Head_Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:38][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:38][OK]   saved 4 table(s)
+[2026-06-15 15:17:38][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\1.Goods Receipt_ใบรับสินค้า\1.Goods Receipt_ใบรับสินค้า.rpt
+[2026-06-15 15:17:39][OK]   [main] 'G_Receipt' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:39][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:39][OK]   [sub:Head_Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:39][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:39][OK]   saved 4 table(s)
+[2026-06-15 15:17:39][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial)\2.Goods Receipt_ENG ใบรับสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:17:39][OK]   [main] 'G_Receipt' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:39][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:39][OK]   [sub:Batch] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:39][OK]   [sub:Head_Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:39][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:39][OK]   saved 5 table(s)
+[2026-06-15 15:17:39][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial)\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:17:39][OK]   [main] 'G_Receipt' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:39][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:39][OK]   [sub:Batch] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:39][OK]   [sub:Head_Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:39][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:40][OK]   saved 5 table(s)
+[2026-06-15 15:17:40][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\1.Goods Issue_ใบเบิกสินค้า\1.Goods Issue_ENG ใบเบิกสินค้า.rpt
+[2026-06-15 15:17:40][OK]   [main] 'G_Issue_BS' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:40][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:40][OK]   [sub:Head_Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:40][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:40][OK]   saved 4 table(s)
+[2026-06-15 15:17:40][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\1.Goods Issue_ใบเบิกสินค้า\1.Goods Issue_ใบเบิกสินค้า.rpt
+[2026-06-15 15:17:40][OK]   [main] 'G_Issue_BS' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:40][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:40][OK]   [sub:Head_Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:40][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:40][OK]   saved 4 table(s)
+[2026-06-15 15:17:40][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial)\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:17:41][OK]   [main] 'G_Issue_BS' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:41][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:41][OK]   [sub:Batch] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:41][OK]   [sub:Head_Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:41][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:41][OK]   saved 5 table(s)
+[2026-06-15 15:17:41][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial)\2.Goods Issue_ใบเบิกสินค้า_ENG (Batch_Serial).rpt
+[2026-06-15 15:17:41][OK]   [main] 'G_Issue_BS' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:41][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:42][OK]   [sub:Batch] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:42][OK]   [sub:Head_Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:42][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:42][OK]   saved 5 table(s)
+[2026-06-15 15:17:42][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\3. Inventory Transfer Request\1.Inventory Transfer Request_ใบขอโอนสินค้า\1.Inventory Transfer Request_ใบขอโอนสินค้า.rpt
+[2026-06-15 15:17:42][OK]   [main] 'Transfer_Re' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:42][OK]   [main] 'Transfer_Re_Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:43][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:43][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:43][OK]   [sub:HRemark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:43][OK]   [sub:TEXT] 'Transfer_Re_Text' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:43][OK]   saved 6 table(s)
+[2026-06-15 15:17:43][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\4. Inventory Transfer\2.Inventory Transfer_ใบโอนสินค้า(Batch_Serial)\2.Inventory Transfer_ใบโอนสินค้า.rpt
+[2026-06-15 15:17:43][OK]   [main] 'Transfer' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:43][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:43][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:43][OK]   [sub:HRemark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:43][OK]   [sub:TEXT] 'Transfer_Re_Text' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:43][OK]   saved 5 table(s)
+[2026-06-15 15:17:43][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\4. Inventory Transfer\2.Inventory Transfer_ใบโอนสินค้า(Batch_Serial)\2.Inventory Transfer_ใบโอนสินค้า_TH_(Batch_Serial).rpt
+[2026-06-15 15:17:43][OK]   [main] 'Transfer' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:43][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:43][OK]   [main] 'Create' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:43][OK]   [sub:Batch] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:43][OK]   [sub:HRemark] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:43][OK]   [sub:TEXT] 'Transfer_Re_Text' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:44][OK]   saved 6 table(s)
+[2026-06-15 15:17:44][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\5. Inventory Counting\1.Inventory Counting_ใบตรวจนับสินค้า_Befor\1.Inventory Counting_ใบตรวจนับสินค้า_Befor.rpt
+[2026-06-15 15:17:44][OK]   [main] 'Command' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:44][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:44][OK]   saved 2 table(s)
+[2026-06-15 15:17:45][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\5. Inventory Counting\2.Inventory Counting_ใบหลังตรวจนับสินค้า_After\2.Inventory Counting_ใบหลังตรวจนับสินค้า_After.rpt
+[2026-06-15 15:17:47][OK]   [main] 'Command' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:47][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:48][OK]   saved 2 table(s)
+[2026-06-15 15:17:48][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\6. Inventory Revaluation\1.Inventory Revaluation_ใบปรับมูลค่า_Price\1.Inventory Revaluation_ใบปรับมูลค่า_Price.rpt
+[2026-06-15 15:17:48][OK]   [main] 'Inventory_Re' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:48][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:48][OK]   saved 2 table(s)
+[2026-06-15 15:17:48][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\6. Inventory Revaluation\2.Inventory Revaluation_ใบปรับมูลค่า_DebitCredit\2.Inventory Revaluation_ใบปรับมูลค่า_DebitCredit.rpt
+[2026-06-15 15:17:49][OK]   [main] 'Inven_Revalue' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:49][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:49][OK]   saved 2 table(s)
+[2026-06-15 15:17:49][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\1. Production Order\1.Production Order_ใบสั่งผลิต\1.Production Order_ใบสั่งผลิต.rpt
+[2026-06-15 15:17:50][OK]   [main] 'Prodution_Order' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:50][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:50][OK]   [sub:Text] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:50][OK]   saved 3 table(s)
+[2026-06-15 15:17:50][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\2. Receipt from Production\1.Receipt from Production_ใบรับสินค้าจากการผลิต\1.Receipt from Production_ใบรับสินค้าจากการผลิต.rpt
+[2026-06-15 15:17:50][OK]   [main] 'Receipt_f_Production' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:50][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:50][OK]   [sub:TEXT] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:50][OK]   saved 3 table(s)
+[2026-06-15 15:17:50][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\2. Receipt from Production\2.Receipt from Production_ใบรับสินค้าจากการผลิต_(Batch_Serial)\2.Receipt from Production_ใบรับสินค้าจากการผลิต_(Batch_Serial).rpt
+[2026-06-15 15:17:51][OK]   [main] 'Receipt_f_Prodution' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:51][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:51][OK]   [sub:B/S Number] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:51][OK]   [sub:TEXT] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:51][OK]   saved 4 table(s)
+[2026-06-15 15:17:51][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\3. Issue for Production\1.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต\1.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต.rpt
+[2026-06-15 15:17:52][OK]   [main] 'Issue_f_Prodution' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:52][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:52][OK]   [sub:TEXT] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:52][OK]   saved 3 table(s)
+[2026-06-15 15:17:52][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\3. Issue for Production\2.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต_(Batch_Serial)\2.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต_(Batch_Serial).rpt
+[2026-06-15 15:17:52][OK]   [main] 'Issue_f_Prodution' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:52][OK]   [main] 'Address' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:52][OK]   [sub:B/S Num] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:52][OK]   [sub:TEXT] 'Command' server '10.10.10.110' -> '10.10.10.110'
+[2026-06-15 15:17:52][OK]   saved 4 table(s)
+[2026-06-15 15:17:52][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\ทะเบียนสินทรัพย์\ทะเบียนสินทรัพย์.rpt
+[2026-06-15 15:17:53][OK]   [main] 'คำสั่ง' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:53][OK]   saved 1 table(s)
+[2026-06-15 15:17:53][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\รายการขายทรัพย์สิน เรียงตามรหัสสินทรัพย์\รายการขายทรัพย์สิน เรียงตามรหัสสินทรัพย์.rpt
+[2026-06-15 15:17:54][OK]   [main] 'Command' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:54][OK]   saved 1 table(s)
+[2026-06-15 15:17:54][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\รายการสินทรัพย์เข้าใหม่ เรียงตามรหัสสินทรัพย์\รายการสินทรัพย์เข้าใหม่ เรียงตามรหัสสินทรัพย์.rpt
+[2026-06-15 15:17:55][OK]   [main] 'Command' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:55][OK]   saved 1 table(s)
+[2026-06-15 15:17:56][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\รายงานค่าเสื่อมประจำเดือน สรุปตามกลุ่มสินทรัพย์\รายงานค่าเสื่อมประจำเดือน สรุปตามกลุ่มสินทรัพย์.rpt
+[2026-06-15 15:17:56][OK]   [main] 'คำสั่ง' server '172.17.0.22' -> '10.10.10.110'
+[2026-06-15 15:17:56][OK]   saved 1 table(s)
+[2026-06-15 15:17:56][INFO] === Done. ok=75  err=0  skipped=0  total=75 ===
+[2026-06-15 15:20:39][INFO] === Set-DatasourceLocation start ===
+[2026-06-15 15:20:39][INFO] Path=C:\GitHub\SBO_Seoul\Form-Layout  NewServer=172.17.0.22  OldServer=  NewDatabase=  NewUser=  WhatIf=False
+[2026-06-15 15:20:39][INFO] Found 75 report file(s).
+[2026-06-15 15:20:39][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\1. Financials\1.Journal Entry_ใบบันทึกรายการบัญชี\1.Journal Entry_ใบบันทึกรายการบัญชี.rpt
+[2026-06-15 15:20:40][OK]   [main] 'Bank_JE' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:40][OK]   [main] 'Command_Addrees' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:40][OK]   [main] 'Create_Sign' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:40][OK]   saved 3 table(s)
+[2026-06-15 15:20:41][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\1.Sale Quotation_ใบเสนอราคาขาย_(Dis) ENG.rpt
+[2026-06-15 15:20:41][OK]   [main] 'AR_SQ' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:41][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:41][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:41][OK]   [main] 'Approve' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:41][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:41][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:41][OK]   saved 6 table(s)
+[2026-06-15 15:20:42][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\1.Sale Quotation_ใบเสนอราคาขาย_(Dis).rpt
+[2026-06-15 15:20:42][OK]   [main] 'AR_SQ' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:42][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:42][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:42][OK]   [main] 'Approve' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:42][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:42][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:43][OK]   saved 6 table(s)
+[2026-06-15 15:20:43][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\2. Sales Order\1.Sale Order_ใบสั่งขาย_(Dis)\1.Sale Order_ใบสั่งขาย_(Dis).rpt
+[2026-06-15 15:20:44][OK]   [main] 'AR_SO' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:44][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:44][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:44][OK]   [main] 'Approve' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:44][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:44][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:44][OK]   saved 6 table(s)
+[2026-06-15 15:20:44][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\3. Delivery\2.Delivery_ใบส่งของ_(Batch_Serial)\1.Delivery_ใบส่งของ_Eng (Batch_Serial).rpt
+[2026-06-15 15:20:45][OK]   [main] 'AR_Delivery_BS' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:45][OK]   [main] 'address_eng' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:45][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:45][OK]   [sub:Batch/Serial] 'AR_Drlivery_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:45][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:45][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:45][OK]   saved 6 table(s)
+[2026-06-15 15:20:45][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\3. Delivery\2.Delivery_ใบส่งของ_(Batch_Serial)\2.Delivery_ใบส่งของ_(Batch_Serial).rpt
+[2026-06-15 15:20:46][OK]   [main] 'AR_Delivery_BS' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:46][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:46][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:46][OK]   [sub:Batch/Serial] 'AR_Drlivery_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:46][OK]   [sub:Haed_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:46][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:46][OK]   saved 6 table(s)
+[2026-06-15 15:20:46][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\4. Return\2.Retrun_ใบรับคืนสินค้า_(Batch_Serial)\1.Retrun_ใบรับคืนสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:20:47][OK]   [main] 'AR_Retrun_BS' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:47][OK]   [main] 'OADM' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:47][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:47][OK]   [sub:Batch/Serial] 'AR_Retrun_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:47][OK]   [sub:Head_Sup] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:47][OK]   [sub:Line_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:48][OK]   saved 6 table(s)
+[2026-06-15 15:20:48][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\4. Return\2.Retrun_ใบรับคืนสินค้า_(Batch_Serial)\1.Retrun_ใบรับคืนสินค้า_ENG (Batch_Serial).rpt
+[2026-06-15 15:20:48][OK]   [main] 'AR_Retrun_BS' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:48][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:48][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:48][OK]   [sub:Batch/Serial] 'AR_Retrun_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:48][OK]   [sub:Head_Sup] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:48][OK]   [sub:Line_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:48][OK]   saved 6 table(s)
+[2026-06-15 15:20:49][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ\1.AR Down Payment_ENG ใบเสร็จรับเงินมัดจำ.rpt
+[2026-06-15 15:20:50][OK]   [main] 'AR_DownPayment' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:50][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:50][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:50][OK]   [sub:Hreport] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:50][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:50][OK]   saved 5 table(s)
+[2026-06-15 15:20:50][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ.rpt
+[2026-06-15 15:20:51][OK]   [main] 'AR_DownPayment' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:51][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:51][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:51][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:51][OK]   [sub:head remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:51][OK]   saved 5 table(s)
+[2026-06-15 15:20:51][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี\2.AR Down PaymentTax Invoice_ENG ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:20:52][OK]   [main] 'AR_DownPayment' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:52][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:52][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:52][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:52][OK]   [sub:hmark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:52][OK]   saved 5 table(s)
+[2026-06-15 15:20:52][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:20:53][OK]   [main] 'AR_DownPayment' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:53][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:53][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:53][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:53][OK]   saved 4 table(s)
+[2026-06-15 15:20:53][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\3.AR Down Payment Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี\3.AR Down PaymentTax Invoice_ENG ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:20:53][OK]   [main] 'AR_DownPayment' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:53][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:54][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:54][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:54][OK]   [sub:hmark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:54][OK]   saved 5 table(s)
+[2026-06-15 15:20:54][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\3.AR Down Payment Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี\3.AR Down PaymentTax Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:20:55][OK]   [main] 'AR_DownPayment' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:55][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:55][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:55][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:55][OK]   [sub:hmark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:55][OK]   saved 5 table(s)
+[2026-06-15 15:20:55][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\2.AR Invoice_ใบแจ้งหนี้_(Dis)\2.AR Invoice_ENG ใบแจ้งหนี้_(Dis).rpt
+[2026-06-15 15:20:55][OK]   [main] 'AR_INV' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:56][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:56][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:56][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:56][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:56][OK]   saved 5 table(s)
+[2026-06-15 15:20:56][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\2.AR Invoice_ใบแจ้งหนี้_(Dis)\2.AR Invoice_ใบแจ้งหนี้_(Dis).rpt
+[2026-06-15 15:20:56][OK]   [main] 'AR_INV' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:56][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:56][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:56][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:56][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:56][OK]   saved 5 table(s)
+[2026-06-15 15:20:57][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis)\4.BillingAR InvoiceTax Invoice_ENG ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis).rpt
+[2026-06-15 15:20:57][OK]   [main] 'AR_INV' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:57][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:57][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:57][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:57][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:57][OK]   saved 5 table(s)
+[2026-06-15 15:20:57][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis)\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis).rpt
+[2026-06-15 15:20:58][OK]   [main] 'AR_INV' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:58][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:58][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:58][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:58][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:58][OK]   saved 5 table(s)
+[2026-06-15 15:20:58][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis)\6.BillingAR Invoice_ENG ใบวางบิลใบแจ้งหนี้ (Dis).rpt
+[2026-06-15 15:20:59][OK]   [main] 'AR_INV' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:59][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:59][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:59][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:20:59][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:20:59][OK]   saved 5 table(s)
+[2026-06-15 15:20:59][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis)\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis).rpt
+[2026-06-15 15:21:00][OK]   [main] 'AR_INV' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:00][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:00][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:00][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:00][OK]   [sub:Remark] 'Command' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:00][OK]   saved 5 table(s)
+[2026-06-15 15:21:00][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\1.AR_Credit Memo_ใบลดหนี้ แก้ไขยอดเงิน\1.AR_Credit Memo_ENG ใบลดหนี้ แก้ไขยอดเงิน.rpt
+[2026-06-15 15:21:01][OK]   [main] 'AR_CN_BS' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:01][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:01][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:01][OK]   [sub:Batch/Serial] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:01][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:01][OK]   [sub:Text] 'AR_CN_BS_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:01][OK]   saved 6 table(s)
+[2026-06-15 15:21:02][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\1.AR_Credit Memo_ใบลดหนี้ แก้ไขยอดเงิน\1.AR_Credit Memo_ใบลดหนี้ แก้ไขยอดเงิน.rpt
+[2026-06-15 15:21:02][OK]   [main] 'AR_CN_BS' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:02][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:02][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:03][OK]   [sub:Batch/Serial] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:03][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:03][OK]   [sub:Text] 'AR_CN_BS_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:03][OK]   saved 6 table(s)
+[2026-06-15 15:21:03][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\2.AR_Credit Memo_ใบลดหนี้_(Dis)\2.AR_Credit Memo_ENG ใบลดหนี้_(Dis) แก้ไขยอดเงิน.rpt
+[2026-06-15 15:21:03][OK]   [main] 'AR_CN' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:03][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:04][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:04][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:04][OK]   [sub:Text] 'AR_CN_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:04][OK]   saved 5 table(s)
+[2026-06-15 15:21:04][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\2.AR_Credit Memo_ใบลดหนี้_(Dis)\2.AR_Credit Memo_ใบลดหนี้_(Dis) แก้ไขยอดเงิน.rpt
+[2026-06-15 15:21:04][OK]   [main] 'AR_CN' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:04][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:04][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:04][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:04][OK]   [sub:Text] 'AR_CN_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:05][OK]   saved 5 table(s)
+[2026-06-15 15:21:05][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\3.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) แก้ไขยอดเงิน\3.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) แก้ไขยอดเงิน.rpt
+[2026-06-15 15:21:05][OK]   [main] 'AR_CN_BS' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:05][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:05][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:05][OK]   [sub:Batch/Serial] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:05][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:05][OK]   [sub:Text] 'AR_CN_BS_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:06][OK]   saved 6 table(s)
+[2026-06-15 15:21:06][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\3.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) แก้ไขยอดเงิน\3.AR_Credit Memo_ใบลดหนี้_ENG (Batch_Serial) แก้ไขยอดเงิน.rpt
+[2026-06-15 15:21:07][OK]   [main] 'AR_CN_BS' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:07][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:07][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:07][OK]   [sub:Batch/Serial] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:07][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:07][OK]   [sub:Text] 'AR_CN_BS_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:07][OK]   saved 6 table(s)
+[2026-06-15 15:21:07][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis)\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis).rpt
+[2026-06-15 15:21:08][OK]   [main] 'AR_CN' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:08][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:08][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:08][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:08][OK]   [sub:Text] 'AR_CN_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:08][OK]   saved 5 table(s)
+[2026-06-15 15:21:08][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis)\4.AR_Credit Memo_ใบลดหนี้_ENG (Batch_Serial) (Dis).rpt
+[2026-06-15 15:21:09][OK]   [main] 'AR_CN' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:09][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:09][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:09][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:09][OK]   [sub:Text] 'AR_CN_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:09][OK]   saved 5 table(s)
+[2026-06-15 15:21:09][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\1. Purchase Request\1.Purchase Request_TH_ใบขอซื้อ\1.Purchase Request_TH_ใบขอซื้อ.rpt
+[2026-06-15 15:21:09][OK]   [main] 'AP_PR' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:09][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:09][OK]   [main] 'Approve' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:09][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:09][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:09][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:09][OK]   saved 6 table(s)
+[2026-06-15 15:21:10][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\2. Purchase Quotation\1.Purchase Quotation_ใบเสนอราคาซื้อ\1.Purchase Quotation_ใบเสนอราคาซื้อ.rpt
+[2026-06-15 15:21:10][OK]   [main] 'AP_PQ' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:10][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:11][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:11][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:11][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:11][OK]   saved 5 table(s)
+[2026-06-15 15:21:11][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_ENG_ใบสั่งซื้อ.rpt
+[2026-06-15 15:21:11][OK]   [main] 'AP_PO' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:11][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:11][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:11][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:11][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:11][OK]   saved 5 table(s)
+[2026-06-15 15:21:12][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_TH_ใบสั่งซื้อ.rpt
+[2026-06-15 15:21:12][OK]   [main] 'AP_PO' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:12][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:12][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:12][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:12][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:12][OK]   saved 5 table(s)
+[2026-06-15 15:21:12][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\4. Goods Receipt PO\2.Goods Receive PO_TH_ใบรับสินค้า_(Batch_Serial) - Copy\2.Goods Reciept PO_TH_ใบรับสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:21:13][OK]   [main] 'AP_GRPO_BN' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:13][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:13][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:13][OK]   [sub:Batch/Serial] 'AP_GRPO_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:13][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:13][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:13][OK]   saved 6 table(s)
+[2026-06-15 15:21:13][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\5. Goods Return\2.Goods Return_EN_ใบส่งคืนสินค้า_(Batch_Serial)\2.Goods Return_TH_ใบส่งคืนสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:21:14][OK]   [main] 'AP_GR_BN' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:14][OK]   [main] 'Company' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:14][OK]   [sub:Head_Sub] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:14][OK]   [sub:Remark] 'Remark' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:14][OK]   [sub:batch&serial] 'AP_GR_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:14][OK]   saved 5 table(s)
+[2026-06-15 15:21:14][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\1.AP Down Payment ใบจ่ายเงินมัดจำ\1.AP Down Payment_ENG ใบจ่ายเงินมัดจำ.rpt
+[2026-06-15 15:21:14][OK]   [main] 'AP_DownPayment' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:14][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:14][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:14][OK]   [sub:H remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:14][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:14][OK]   saved 5 table(s)
+[2026-06-15 15:21:15][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\1.AP Down Payment ใบจ่ายเงินมัดจำ\1.AP Down Payment_ใบจ่ายเงินมัดจำ.rpt
+[2026-06-15 15:21:15][OK]   [main] 'AP_DownPayment' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:15][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:15][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:15][OK]   [sub:H remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:15][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:16][OK]   saved 5 table(s)
+[2026-06-15 15:21:16][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำ_ใบแจ้งหนี้\2.AP Down Payment Invoice_ENG ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:21:16][OK]   [main] 'AP_DownPayment' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:16][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:16][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:16][OK]   [sub:H remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:16][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:16][OK]   saved 5 table(s)
+[2026-06-15 15:21:17][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำ_ใบแจ้งหนี้\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-15 15:21:17][OK]   [main] 'AP_DownPayment' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:17][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:17][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:17][OK]   [sub:HaedRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:17][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:18][OK]   saved 5 table(s)
+[2026-06-15 15:21:18][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\1.AP Invoice_ใบแจ้งหนี้\1.AP Invoice_ใบแจ้งหนี้.rpt
+[2026-06-15 15:21:18][OK]   [main] 'AP_INV_BN' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:18][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:18][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:18][OK]   [sub:HaedRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:18][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:18][OK]   saved 5 table(s)
+[2026-06-15 15:21:19][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\2.AP Invoice_ใบแจ้งหนี้_(Batch_Serial)\2.AP Invoice_ใบแจ้งหนี้_(Batch_Serial).rpt
+[2026-06-15 15:21:19][OK]   [main] 'AP_INV_BN' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:19][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:19][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:19][OK]   [sub:HeadRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:19][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:19][OK]   [sub:batch&sserial] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:19][OK]   saved 6 table(s)
+[2026-06-15 15:21:20][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี\3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี(Batch_Serial).rpt
+[2026-06-15 15:21:20][OK]   [main] 'AP_INV_BN' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:20][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:20][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:20][OK]   [sub:HeadRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:20][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:20][OK]   [sub:batch&sserial] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:20][OK]   saved 6 table(s)
+[2026-06-15 15:21:21][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี\3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี.rpt
+[2026-06-15 15:21:21][OK]   [main] 'AP_INV_BN' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:21][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:21][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:21][OK]   [sub:TEXT] 'AP_INV_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:22][OK]   saved 4 table(s)
+[2026-06-15 15:21:22][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\4.AP Debit Note_ใบเพิ่มหนี้\4.AP Debit Note_ใบเพิ่มหนี้.rpt
+[2026-06-15 15:21:23][OK]   [main] 'AP_INV' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:23][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:23][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:23][OK]   [sub:TEXT] 'AR_INV_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:23][OK]   saved 4 table(s)
+[2026-06-15 15:21:23][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\8. AP Credit Memo\1.AP Credit Memo_ใบลดหนี้\1.AP Credit Memo_ใบลดหนี้.rpt
+[2026-06-15 15:21:23][OK]   [main] 'AP_CN' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:23][OK]   [main] 'HAddress' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:23][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:23][OK]   [sub:HeadRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:23][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:23][OK]   saved 5 table(s)
+[2026-06-15 15:21:23][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\9. Landed Costs\1.Landed Costs_ใบปรับราคาต้นทุนสินค้า\1.Landed Costs_ใบปรับราคาต้นทุนสินค้า.rpt
+[2026-06-15 15:21:24][OK]   [main] 'Landed_Cost' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:24][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:24][OK]   [sub:Landed_Cost] 'Landed_Cost' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:24][OK]   saved 3 table(s)
+[2026-06-15 15:21:24][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\1.Incoming Payments_ใบเสร็จรับเงิน\1.Incoming Payments_Eng ใบเสร็จรับเงิน.rpt
+[2026-06-15 15:21:24][OK]   [main] 'Bank_Receipt' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:24][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:24][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:24][OK]   [sub:CheckNum] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:24][OK]   saved 4 table(s)
+[2026-06-15 15:21:25][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\1.Incoming Payments_ใบเสร็จรับเงิน\1.Incoming Payments_ใบเสร็จรับเงิน.rpt
+[2026-06-15 15:21:25][OK]   [main] 'Bank_Receipt' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:25][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:25][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:25][OK]   [sub:CheckNum] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:26][OK]   saved 4 table(s)
+[2026-06-15 15:21:26][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี\2.Incoming Payments_ ENG ใบเสร็จรับเงินใบกำกับภาษี.rpt
+[2026-06-15 15:21:26][OK]   [main] 'Bank_ReceiptTax' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:26][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:26][OK]   [sub:CheckNum] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:27][OK]   saved 3 table(s)
+[2026-06-15 15:21:27][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี.rpt
+[2026-06-15 15:21:28][OK]   [main] 'Bank_ReceiptTax' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:28][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:28][OK]   [sub:CheckNum] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:28][OK]   saved 3 table(s)
+[2026-06-15 15:21:28][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\2. Outgoing Payments\1.Outgoing Payments_ใบจ่ายชำระ\1.Outgoing Payments_ENG ใบจ่ายชำระ.rpt
+[2026-06-15 15:21:29][OK]   [main] 'Bank_Payment' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:29][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:29][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:29][OK]   [sub:Bank] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:29][OK]   [sub:Cash] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:29][OK]   [sub:Credit Card] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:29][OK]   [sub:JE] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:29][OK]   [sub:Report] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:29][OK]   [sub:TranFer] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:29][OK]   saved 9 table(s)
+[2026-06-15 15:21:29][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\2. Outgoing Payments\1.Outgoing Payments_ใบจ่ายชำระ\1.Outgoing Payments_ใบจ่ายชำระ.rpt
+[2026-06-15 15:21:30][OK]   [main] 'Bank_Payment' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:30][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:30][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:30][OK]   [sub:Bank] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:30][OK]   [sub:Cash] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:30][OK]   [sub:Credit Card] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:30][OK]   [sub:JE] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:30][OK]   [sub:Report] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:30][OK]   [sub:TranFer] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:30][OK]   saved 9 table(s)
+[2026-06-15 15:21:31][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\1.Goods Receipt_ใบรับสินค้า\1.Goods Receipt_ENG ใบรับสินค้า.rpt
+[2026-06-15 15:21:31][OK]   [main] 'G_Receipt' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:31][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:31][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:31][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:31][OK]   saved 4 table(s)
+[2026-06-15 15:21:31][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\1.Goods Receipt_ใบรับสินค้า\1.Goods Receipt_ใบรับสินค้า.rpt
+[2026-06-15 15:21:32][OK]   [main] 'G_Receipt' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:32][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:32][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:32][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:32][OK]   saved 4 table(s)
+[2026-06-15 15:21:32][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial)\2.Goods Receipt_ENG ใบรับสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:21:33][OK]   [main] 'G_Receipt' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:33][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:33][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:33][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:33][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:33][OK]   saved 5 table(s)
+[2026-06-15 15:21:33][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial)\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:21:33][OK]   [main] 'G_Receipt' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:33][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:33][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:33][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:33][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:33][OK]   saved 5 table(s)
+[2026-06-15 15:21:34][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\1.Goods Issue_ใบเบิกสินค้า\1.Goods Issue_ENG ใบเบิกสินค้า.rpt
+[2026-06-15 15:21:34][OK]   [main] 'G_Issue_BS' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:34][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:34][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:34][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:34][OK]   saved 4 table(s)
+[2026-06-15 15:21:35][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\1.Goods Issue_ใบเบิกสินค้า\1.Goods Issue_ใบเบิกสินค้า.rpt
+[2026-06-15 15:21:35][OK]   [main] 'G_Issue_BS' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:35][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:35][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:35][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:35][OK]   saved 4 table(s)
+[2026-06-15 15:21:36][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial)\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial).rpt
+[2026-06-15 15:21:36][OK]   [main] 'G_Issue_BS' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:36][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:36][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:36][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:36][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:36][OK]   saved 5 table(s)
+[2026-06-15 15:21:37][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial)\2.Goods Issue_ใบเบิกสินค้า_ENG (Batch_Serial).rpt
+[2026-06-15 15:21:37][OK]   [main] 'G_Issue_BS' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:37][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:37][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:37][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:37][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:37][OK]   saved 5 table(s)
+[2026-06-15 15:21:37][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\3. Inventory Transfer Request\1.Inventory Transfer Request_ใบขอโอนสินค้า\1.Inventory Transfer Request_ใบขอโอนสินค้า.rpt
+[2026-06-15 15:21:38][OK]   [main] 'Transfer_Re' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:38][OK]   [main] 'Transfer_Re_Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:38][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:38][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:38][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:38][OK]   [sub:TEXT] 'Transfer_Re_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:38][OK]   saved 6 table(s)
+[2026-06-15 15:21:38][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\4. Inventory Transfer\2.Inventory Transfer_ใบโอนสินค้า(Batch_Serial)\2.Inventory Transfer_ใบโอนสินค้า.rpt
+[2026-06-15 15:21:39][OK]   [main] 'Transfer' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:39][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:39][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:39][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:39][OK]   [sub:TEXT] 'Transfer_Re_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:39][OK]   saved 5 table(s)
+[2026-06-15 15:21:40][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\4. Inventory Transfer\2.Inventory Transfer_ใบโอนสินค้า(Batch_Serial)\2.Inventory Transfer_ใบโอนสินค้า_TH_(Batch_Serial).rpt
+[2026-06-15 15:21:40][OK]   [main] 'Transfer' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:40][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:40][OK]   [main] 'Create' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:40][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:40][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:40][OK]   [sub:TEXT] 'Transfer_Re_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:40][OK]   saved 6 table(s)
+[2026-06-15 15:21:41][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\5. Inventory Counting\1.Inventory Counting_ใบตรวจนับสินค้า_Befor\1.Inventory Counting_ใบตรวจนับสินค้า_Befor.rpt
+[2026-06-15 15:21:41][OK]   [main] 'Command' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:41][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:41][OK]   saved 2 table(s)
+[2026-06-15 15:21:42][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\5. Inventory Counting\2.Inventory Counting_ใบหลังตรวจนับสินค้า_After\2.Inventory Counting_ใบหลังตรวจนับสินค้า_After.rpt
+[2026-06-15 15:21:43][OK]   [main] 'Command' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:43][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:43][OK]   saved 2 table(s)
+[2026-06-15 15:21:43][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\6. Inventory Revaluation\1.Inventory Revaluation_ใบปรับมูลค่า_Price\1.Inventory Revaluation_ใบปรับมูลค่า_Price.rpt
+[2026-06-15 15:21:43][OK]   [main] 'Inventory_Re' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:43][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:43][OK]   saved 2 table(s)
+[2026-06-15 15:21:44][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\6. Inventory Revaluation\2.Inventory Revaluation_ใบปรับมูลค่า_DebitCredit\2.Inventory Revaluation_ใบปรับมูลค่า_DebitCredit.rpt
+[2026-06-15 15:21:44][OK]   [main] 'Inven_Revalue' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:44][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:44][OK]   saved 2 table(s)
+[2026-06-15 15:21:45][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\1. Production Order\1.Production Order_ใบสั่งผลิต\1.Production Order_ใบสั่งผลิต.rpt
+[2026-06-15 15:21:45][OK]   [main] 'Prodution_Order' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:45][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:45][OK]   [sub:Text] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:45][OK]   saved 3 table(s)
+[2026-06-15 15:21:46][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\2. Receipt from Production\1.Receipt from Production_ใบรับสินค้าจากการผลิต\1.Receipt from Production_ใบรับสินค้าจากการผลิต.rpt
+[2026-06-15 15:21:46][OK]   [main] 'Receipt_f_Production' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:46][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:46][OK]   [sub:TEXT] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:46][OK]   saved 3 table(s)
+[2026-06-15 15:21:47][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\2. Receipt from Production\2.Receipt from Production_ใบรับสินค้าจากการผลิต_(Batch_Serial)\2.Receipt from Production_ใบรับสินค้าจากการผลิต_(Batch_Serial).rpt
+[2026-06-15 15:21:47][OK]   [main] 'Receipt_f_Prodution' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:47][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:47][OK]   [sub:B/S Number] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:47][OK]   [sub:TEXT] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:47][OK]   saved 4 table(s)
+[2026-06-15 15:21:48][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\3. Issue for Production\1.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต\1.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต.rpt
+[2026-06-15 15:21:48][OK]   [main] 'Issue_f_Prodution' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:48][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:48][OK]   [sub:TEXT] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:48][OK]   saved 3 table(s)
+[2026-06-15 15:21:49][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\3. Issue for Production\2.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต_(Batch_Serial)\2.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต_(Batch_Serial).rpt
+[2026-06-15 15:21:49][OK]   [main] 'Issue_f_Prodution' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:49][OK]   [main] 'Address' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:49][OK]   [sub:B/S Num] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:49][OK]   [sub:TEXT] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 15:21:49][OK]   saved 4 table(s)
+[2026-06-15 15:21:50][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\ทะเบียนสินทรัพย์\ทะเบียนสินทรัพย์.rpt
+[2026-06-15 15:21:50][OK]   [main] 'คำสั่ง' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:50][OK]   saved 1 table(s)
+[2026-06-15 15:21:51][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\รายการขายทรัพย์สิน เรียงตามรหัสสินทรัพย์\รายการขายทรัพย์สิน เรียงตามรหัสสินทรัพย์.rpt
+[2026-06-15 15:21:52][OK]   [main] 'Command' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:52][OK]   saved 1 table(s)
+[2026-06-15 15:21:52][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\รายการสินทรัพย์เข้าใหม่ เรียงตามรหัสสินทรัพย์\รายการสินทรัพย์เข้าใหม่ เรียงตามรหัสสินทรัพย์.rpt
+[2026-06-15 15:21:53][OK]   [main] 'Command' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:53][OK]   saved 1 table(s)
+[2026-06-15 15:21:53][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\รายงานค่าเสื่อมประจำเดือน สรุปตามกลุ่มสินทรัพย์\รายงานค่าเสื่อมประจำเดือน สรุปตามกลุ่มสินทรัพย์.rpt
+[2026-06-15 15:21:53][OK]   [main] 'คำสั่ง' server '10.10.10.110' -> '172.17.0.22'
+[2026-06-15 15:21:54][OK]   saved 1 table(s)
+[2026-06-15 15:21:54][INFO] === Done. ok=75  err=0  skipped=0  total=75 ===
+[2026-06-15 16:08:52][INFO] === Set-DatasourceLocation start ===
+[2026-06-15 16:08:52][INFO] Path=C:\GitHub\SBO_Seoul\Form-Layout  NewServer=172.17.0.22  OldServer=  NewDatabase=  NewUser=  WhatIf=False
+[2026-06-15 16:08:52][INFO] Found 75 report file(s).
+[2026-06-15 16:08:52][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\1. Financials\1.Journal Entry_ใบบันทึกรายการบัญชี\1.Journal Entry_ใบบันทึกรายการบัญชี.rpt
+[2026-06-15 16:08:54][OK]   [main] 'Bank_JE' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:54][OK]   [main] 'Command_Addrees' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:54][OK]   [main] 'Create_Sign' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:54][OK]   saved 3 table(s)
+[2026-06-15 16:08:54][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\1.Sale Quotation_ใบเสนอราคาขาย_(Dis) ENG.rpt
+[2026-06-15 16:08:55][OK]   [main] 'AR_SQ' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:55][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:55][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:55][OK]   [main] 'Approve' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:55][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:55][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:55][OK]   saved 6 table(s)
+[2026-06-15 16:08:56][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\1.Sale Quotation_ใบเสนอราคาขาย_(Dis).rpt
+[2026-06-15 16:08:57][OK]   [main] 'AR_SQ' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:57][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:57][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:57][OK]   [main] 'Approve' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:57][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:57][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:57][OK]   saved 6 table(s)
+[2026-06-15 16:08:57][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\2. Sales Order\1.Sale Order_ใบสั่งขาย_(Dis)\1.Sale Order_ใบสั่งขาย_(Dis).rpt
+[2026-06-15 16:08:58][OK]   [main] 'AR_SO' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:58][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:58][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:58][OK]   [main] 'Approve' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:58][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:58][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:58][OK]   saved 6 table(s)
+[2026-06-15 16:08:58][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\3. Delivery\2.Delivery_ใบส่งของ_(Batch_Serial)\1.Delivery_ใบส่งของ_Eng (Batch_Serial).rpt
+[2026-06-15 16:08:59][OK]   [main] 'AR_Delivery_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:59][OK]   [main] 'address_eng' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:59][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:59][OK]   [sub:Batch/Serial] 'AR_Drlivery_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:59][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:59][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:59][OK]   saved 6 table(s)
+[2026-06-15 16:08:59][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\3. Delivery\2.Delivery_ใบส่งของ_(Batch_Serial)\2.Delivery_ใบส่งของ_(Batch_Serial).rpt
+[2026-06-15 16:08:59][OK]   [main] 'AR_Delivery_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:59][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:59][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:59][OK]   [sub:Batch/Serial] 'AR_Drlivery_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:59][OK]   [sub:Haed_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:08:59][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:00][OK]   saved 6 table(s)
+[2026-06-15 16:09:00][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\4. Return\2.Retrun_ใบรับคืนสินค้า_(Batch_Serial)\1.Retrun_ใบรับคืนสินค้า_(Batch_Serial).rpt
+[2026-06-15 16:09:00][OK]   [main] 'AR_Retrun_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:00][OK]   [main] 'OADM' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:00][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:00][OK]   [sub:Batch/Serial] 'AR_Retrun_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:00][OK]   [sub:Head_Sup] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:00][OK]   [sub:Line_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:00][OK]   saved 6 table(s)
+[2026-06-15 16:09:01][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\4. Return\2.Retrun_ใบรับคืนสินค้า_(Batch_Serial)\1.Retrun_ใบรับคืนสินค้า_ENG (Batch_Serial).rpt
+[2026-06-15 16:09:01][OK]   [main] 'AR_Retrun_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:01][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:01][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:01][OK]   [sub:Batch/Serial] 'AR_Retrun_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:01][OK]   [sub:Head_Sup] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:01][OK]   [sub:Line_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:01][OK]   saved 6 table(s)
+[2026-06-15 16:09:02][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ\1.AR Down Payment_ENG ใบเสร็จรับเงินมัดจำ.rpt
+[2026-06-15 16:09:02][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:02][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:02][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:02][OK]   [sub:Hreport] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:02][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:03][OK]   saved 5 table(s)
+[2026-06-15 16:09:03][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ.rpt
+[2026-06-15 16:09:04][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:04][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:04][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:04][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:04][OK]   [sub:head remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:04][OK]   saved 5 table(s)
+[2026-06-15 16:09:04][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี\2.AR Down PaymentTax Invoice_ENG ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-15 16:09:05][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:05][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:05][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:05][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:05][OK]   [sub:hmark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:05][OK]   saved 5 table(s)
+[2026-06-15 16:09:05][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-15 16:09:05][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:05][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:05][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:05][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:06][OK]   saved 4 table(s)
+[2026-06-15 16:09:06][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\3.AR Down Payment Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี\3.AR Down PaymentTax Invoice_ENG ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี.rpt
+[2026-06-15 16:09:06][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:06][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:06][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:06][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:06][OK]   [sub:hmark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:06][OK]   saved 5 table(s)
+[2026-06-15 16:09:07][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\3.AR Down Payment Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี\3.AR Down PaymentTax Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี.rpt
+[2026-06-15 16:09:07][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:07][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:07][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:07][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:07][OK]   [sub:hmark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:07][OK]   saved 5 table(s)
+[2026-06-15 16:09:07][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\2.AR Invoice_ใบแจ้งหนี้_(Dis)\2.AR Invoice_ENG ใบแจ้งหนี้_(Dis).rpt
+[2026-06-15 16:09:08][OK]   [main] 'AR_INV' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:08][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:08][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:08][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:08][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:08][OK]   saved 5 table(s)
+[2026-06-15 16:09:08][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\2.AR Invoice_ใบแจ้งหนี้_(Dis)\2.AR Invoice_ใบแจ้งหนี้_(Dis).rpt
+[2026-06-15 16:09:09][OK]   [main] 'AR_INV' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:09][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:09][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:09][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:09][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:09][OK]   saved 5 table(s)
+[2026-06-15 16:09:09][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis)\4.BillingAR InvoiceTax Invoice_ENG ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis).rpt
+[2026-06-15 16:09:10][OK]   [main] 'AR_INV' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:10][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:10][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:10][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:10][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:10][OK]   saved 5 table(s)
+[2026-06-15 16:09:10][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis)\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis).rpt
+[2026-06-15 16:09:11][OK]   [main] 'AR_INV' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:11][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:11][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:11][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:11][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:11][OK]   saved 5 table(s)
+[2026-06-15 16:09:11][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis)\6.BillingAR Invoice_ENG ใบวางบิลใบแจ้งหนี้ (Dis).rpt
+[2026-06-15 16:09:12][OK]   [main] 'AR_INV' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:12][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:12][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:12][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:12][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:12][OK]   saved 5 table(s)
+[2026-06-15 16:09:12][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis)\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis).rpt
+[2026-06-15 16:09:13][OK]   [main] 'AR_INV' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:13][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:13][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:13][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:13][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:13][OK]   saved 5 table(s)
+[2026-06-15 16:09:13][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\1.AR_Credit Memo_ใบลดหนี้ แก้ไขยอดเงิน\1.AR_Credit Memo_ENG ใบลดหนี้ แก้ไขยอดเงิน.rpt
+[2026-06-15 16:09:14][OK]   [main] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:14][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:14][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:14][OK]   [sub:Batch/Serial] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:14][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:14][OK]   [sub:Text] 'AR_CN_BS_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:14][OK]   saved 6 table(s)
+[2026-06-15 16:09:15][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\1.AR_Credit Memo_ใบลดหนี้ แก้ไขยอดเงิน\1.AR_Credit Memo_ใบลดหนี้ แก้ไขยอดเงิน.rpt
+[2026-06-15 16:09:15][OK]   [main] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:15][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:15][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:15][OK]   [sub:Batch/Serial] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:15][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:15][OK]   [sub:Text] 'AR_CN_BS_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:15][OK]   saved 6 table(s)
+[2026-06-15 16:09:15][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\2.AR_Credit Memo_ใบลดหนี้_(Dis)\2.AR_Credit Memo_ENG ใบลดหนี้_(Dis) แก้ไขยอดเงิน.rpt
+[2026-06-15 16:09:16][OK]   [main] 'AR_CN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:16][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:16][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:16][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:16][OK]   [sub:Text] 'AR_CN_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:16][OK]   saved 5 table(s)
+[2026-06-15 16:09:16][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\2.AR_Credit Memo_ใบลดหนี้_(Dis)\2.AR_Credit Memo_ใบลดหนี้_(Dis) แก้ไขยอดเงิน.rpt
+[2026-06-15 16:09:16][OK]   [main] 'AR_CN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:16][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:16][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:16][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:16][OK]   [sub:Text] 'AR_CN_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:17][OK]   saved 5 table(s)
+[2026-06-15 16:09:17][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\3.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) แก้ไขยอดเงิน\3.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) แก้ไขยอดเงิน.rpt
+[2026-06-15 16:09:18][OK]   [main] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:18][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:18][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:18][OK]   [sub:Batch/Serial] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:18][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:18][OK]   [sub:Text] 'AR_CN_BS_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:18][OK]   saved 6 table(s)
+[2026-06-15 16:09:18][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\3.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) แก้ไขยอดเงิน\3.AR_Credit Memo_ใบลดหนี้_ENG (Batch_Serial) แก้ไขยอดเงิน.rpt
+[2026-06-15 16:09:19][OK]   [main] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:19][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:19][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:19][OK]   [sub:Batch/Serial] 'AR_CN_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:19][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:19][OK]   [sub:Text] 'AR_CN_BS_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:19][OK]   saved 6 table(s)
+[2026-06-15 16:09:20][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis)\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis).rpt
+[2026-06-15 16:09:20][OK]   [main] 'AR_CN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:20][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:20][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:20][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:20][OK]   [sub:Text] 'AR_CN_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:20][OK]   saved 5 table(s)
+[2026-06-15 16:09:20][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis)\4.AR_Credit Memo_ใบลดหนี้_ENG (Batch_Serial) (Dis).rpt
+[2026-06-15 16:09:21][OK]   [main] 'AR_CN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:21][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:21][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:21][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:21][OK]   [sub:Text] 'AR_CN_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:21][OK]   saved 5 table(s)
+[2026-06-15 16:09:21][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\1. Purchase Request\1.Purchase Request_TH_ใบขอซื้อ\1.Purchase Request_TH_ใบขอซื้อ.rpt
+[2026-06-15 16:09:21][OK]   [main] 'AP_PR' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:21][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:21][OK]   [main] 'Approve' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:21][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:21][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:21][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:22][OK]   saved 6 table(s)
+[2026-06-15 16:09:22][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\2. Purchase Quotation\1.Purchase Quotation_ใบเสนอราคาซื้อ\1.Purchase Quotation_ใบเสนอราคาซื้อ.rpt
+[2026-06-15 16:09:22][OK]   [main] 'AP_PQ' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:22][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:22][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:22][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:22][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:22][OK]   saved 5 table(s)
+[2026-06-15 16:09:23][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_ENG_ใบสั่งซื้อ.rpt
+[2026-06-15 16:09:23][OK]   [main] 'AP_PO' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:23][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:23][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:23][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:23][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:24][OK]   saved 5 table(s)
+[2026-06-15 16:09:24][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_TH_ใบสั่งซื้อ.rpt
+[2026-06-15 16:09:24][OK]   [main] 'AP_PO' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:24][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:24][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:24][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:24][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:24][OK]   saved 5 table(s)
+[2026-06-15 16:09:25][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\4. Goods Receipt PO\2.Goods Receive PO_TH_ใบรับสินค้า_(Batch_Serial) - Copy\2.Goods Reciept PO_TH_ใบรับสินค้า_(Batch_Serial).rpt
+[2026-06-15 16:09:25][OK]   [main] 'AP_GRPO_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:25][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:25][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:25][OK]   [sub:Batch/Serial] 'AP_GRPO_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:25][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:25][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:25][OK]   saved 6 table(s)
+[2026-06-15 16:09:25][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\5. Goods Return\2.Goods Return_EN_ใบส่งคืนสินค้า_(Batch_Serial)\2.Goods Return_TH_ใบส่งคืนสินค้า_(Batch_Serial).rpt
+[2026-06-15 16:09:26][OK]   [main] 'AP_GR_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:26][OK]   [main] 'Company' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:26][OK]   [sub:Head_Sub] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:26][OK]   [sub:Remark] 'Remark' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:26][OK]   [sub:batch&serial] 'AP_GR_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:26][OK]   saved 5 table(s)
+[2026-06-15 16:09:26][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\1.AP Down Payment ใบจ่ายเงินมัดจำ\1.AP Down Payment_ENG ใบจ่ายเงินมัดจำ.rpt
+[2026-06-15 16:09:27][OK]   [main] 'AP_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:27][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:27][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:27][OK]   [sub:H remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:27][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:27][OK]   saved 5 table(s)
+[2026-06-15 16:09:28][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\1.AP Down Payment ใบจ่ายเงินมัดจำ\1.AP Down Payment_ใบจ่ายเงินมัดจำ.rpt
+[2026-06-15 16:09:28][OK]   [main] 'AP_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:28][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:28][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:28][OK]   [sub:H remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:28][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:28][OK]   saved 5 table(s)
+[2026-06-15 16:09:29][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำ_ใบแจ้งหนี้\2.AP Down Payment Invoice_ENG ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-15 16:09:29][OK]   [main] 'AP_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:29][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:29][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:29][OK]   [sub:H remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:29][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:30][OK]   saved 5 table(s)
+[2026-06-15 16:09:30][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำ_ใบแจ้งหนี้\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-15 16:09:30][OK]   [main] 'AP_DownPayment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:30][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:30][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:30][OK]   [sub:HaedRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:30][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:30][OK]   saved 5 table(s)
+[2026-06-15 16:09:31][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\1.AP Invoice_ใบแจ้งหนี้\1.AP Invoice_ใบแจ้งหนี้.rpt
+[2026-06-15 16:09:31][OK]   [main] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:31][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:31][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:31][OK]   [sub:HaedRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:31][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:31][OK]   saved 5 table(s)
+[2026-06-15 16:09:32][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\2.AP Invoice_ใบแจ้งหนี้_(Batch_Serial)\2.AP Invoice_ใบแจ้งหนี้_(Batch_Serial).rpt
+[2026-06-15 16:09:32][OK]   [main] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:32][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:32][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:32][OK]   [sub:HeadRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:32][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:32][OK]   [sub:batch&sserial] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:32][OK]   saved 6 table(s)
+[2026-06-15 16:09:32][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี\3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี(Batch_Serial).rpt
+[2026-06-15 16:09:33][OK]   [main] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:33][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:33][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:33][OK]   [sub:HeadRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:33][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:33][OK]   [sub:batch&sserial] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:33][OK]   saved 6 table(s)
+[2026-06-15 16:09:34][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี\3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี.rpt
+[2026-06-15 16:09:34][OK]   [main] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:34][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:34][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:34][OK]   [sub:TEXT] 'AP_INV_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:34][OK]   saved 4 table(s)
+[2026-06-15 16:09:35][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\4.AP Debit Note_ใบเพิ่มหนี้\4.AP Debit Note_ใบเพิ่มหนี้.rpt
+[2026-06-15 16:09:35][OK]   [main] 'AP_INV' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:35][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:35][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:35][OK]   [sub:TEXT] 'AR_INV_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:35][OK]   saved 4 table(s)
+[2026-06-15 16:09:35][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\8. AP Credit Memo\1.AP Credit Memo_ใบลดหนี้\1.AP Credit Memo_ใบลดหนี้.rpt
+[2026-06-15 16:09:36][OK]   [main] 'AP_CN' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:36][OK]   [main] 'HAddress' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:36][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:36][OK]   [sub:HeadRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:36][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:36][OK]   saved 5 table(s)
+[2026-06-15 16:09:36][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\9. Landed Costs\1.Landed Costs_ใบปรับราคาต้นทุนสินค้า\1.Landed Costs_ใบปรับราคาต้นทุนสินค้า.rpt
+[2026-06-15 16:09:37][OK]   [main] 'Landed_Cost' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:37][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:37][OK]   [sub:Landed_Cost] 'Landed_Cost' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:37][OK]   saved 3 table(s)
+[2026-06-15 16:09:37][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\1.Incoming Payments_ใบเสร็จรับเงิน\1.Incoming Payments_Eng ใบเสร็จรับเงิน.rpt
+[2026-06-15 16:09:37][OK]   [main] 'Bank_Receipt' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:37][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:37][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:37][OK]   [sub:CheckNum] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:37][OK]   saved 4 table(s)
+[2026-06-15 16:09:37][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\1.Incoming Payments_ใบเสร็จรับเงิน\1.Incoming Payments_ใบเสร็จรับเงิน.rpt
+[2026-06-15 16:09:38][OK]   [main] 'Bank_Receipt' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:38][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:38][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:38][OK]   [sub:CheckNum] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:38][OK]   saved 4 table(s)
+[2026-06-15 16:09:38][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี\2.Incoming Payments_ ENG ใบเสร็จรับเงินใบกำกับภาษี.rpt
+[2026-06-15 16:09:38][OK]   [main] 'Bank_ReceiptTax' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:38][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:38][OK]   [sub:CheckNum] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:38][OK]   saved 3 table(s)
+[2026-06-15 16:09:39][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี.rpt
+[2026-06-15 16:09:39][OK]   [main] 'Bank_ReceiptTax' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:39][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:39][OK]   [sub:CheckNum] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:39][OK]   saved 3 table(s)
+[2026-06-15 16:09:39][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\2. Outgoing Payments\1.Outgoing Payments_ใบจ่ายชำระ\1.Outgoing Payments_ENG ใบจ่ายชำระ.rpt
+[2026-06-15 16:09:40][OK]   [main] 'Bank_Payment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   [sub:Bank] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   [sub:Cash] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   [sub:Credit Card] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   [sub:JE] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   [sub:Report] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   [sub:TranFer] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   saved 9 table(s)
+[2026-06-15 16:09:40][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\2. Outgoing Payments\1.Outgoing Payments_ใบจ่ายชำระ\1.Outgoing Payments_ใบจ่ายชำระ.rpt
+[2026-06-15 16:09:40][OK]   [main] 'Bank_Payment' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   [sub:Bank] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   [sub:Cash] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   [sub:Credit Card] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   [sub:JE] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   [sub:Report] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:40][OK]   [sub:TranFer] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:41][OK]   saved 9 table(s)
+[2026-06-15 16:09:41][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\1.Goods Receipt_ใบรับสินค้า\1.Goods Receipt_ENG ใบรับสินค้า.rpt
+[2026-06-15 16:09:42][OK]   [main] 'G_Receipt' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:42][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:42][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:42][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:42][OK]   saved 4 table(s)
+[2026-06-15 16:09:42][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\1.Goods Receipt_ใบรับสินค้า\1.Goods Receipt_ใบรับสินค้า.rpt
+[2026-06-15 16:09:42][OK]   [main] 'G_Receipt' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:42][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:42][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:42][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:42][OK]   saved 4 table(s)
+[2026-06-15 16:09:42][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial)\2.Goods Receipt_ENG ใบรับสินค้า_(Batch_Serial).rpt
+[2026-06-15 16:09:43][OK]   [main] 'G_Receipt' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:43][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:43][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:43][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:43][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:43][OK]   saved 5 table(s)
+[2026-06-15 16:09:43][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial)\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial).rpt
+[2026-06-15 16:09:44][OK]   [main] 'G_Receipt' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:44][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:44][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:44][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:44][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:44][OK]   saved 5 table(s)
+[2026-06-15 16:09:44][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\1.Goods Issue_ใบเบิกสินค้า\1.Goods Issue_ENG ใบเบิกสินค้า.rpt
+[2026-06-15 16:09:45][OK]   [main] 'G_Issue_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:45][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:45][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:45][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:45][OK]   saved 4 table(s)
+[2026-06-15 16:09:45][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\1.Goods Issue_ใบเบิกสินค้า\1.Goods Issue_ใบเบิกสินค้า.rpt
+[2026-06-15 16:09:45][OK]   [main] 'G_Issue_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:45][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:45][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:45][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:45][OK]   saved 4 table(s)
+[2026-06-15 16:09:46][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial)\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial).rpt
+[2026-06-15 16:09:46][OK]   [main] 'G_Issue_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:46][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:46][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:46][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:46][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:46][OK]   saved 5 table(s)
+[2026-06-15 16:09:47][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial)\2.Goods Issue_ใบเบิกสินค้า_ENG (Batch_Serial).rpt
+[2026-06-15 16:09:47][OK]   [main] 'G_Issue_BS' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:47][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:47][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:47][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:47][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:47][OK]   saved 5 table(s)
+[2026-06-15 16:09:48][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\3. Inventory Transfer Request\1.Inventory Transfer Request_ใบขอโอนสินค้า\1.Inventory Transfer Request_ใบขอโอนสินค้า.rpt
+[2026-06-15 16:09:48][OK]   [main] 'Transfer_Re' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:48][OK]   [main] 'Transfer_Re_Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:48][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:48][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:48][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:48][OK]   [sub:TEXT] 'Transfer_Re_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:48][OK]   saved 6 table(s)
+[2026-06-15 16:09:49][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\4. Inventory Transfer\2.Inventory Transfer_ใบโอนสินค้า(Batch_Serial)\2.Inventory Transfer_ใบโอนสินค้า.rpt
+[2026-06-15 16:09:49][OK]   [main] 'Transfer' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:49][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:49][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:49][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:49][OK]   [sub:TEXT] 'Transfer_Re_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:50][OK]   saved 5 table(s)
+[2026-06-15 16:09:50][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\4. Inventory Transfer\2.Inventory Transfer_ใบโอนสินค้า(Batch_Serial)\2.Inventory Transfer_ใบโอนสินค้า_TH_(Batch_Serial).rpt
+[2026-06-15 16:09:50][OK]   [main] 'Transfer' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:50][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:50][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:50][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:50][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:50][OK]   [sub:TEXT] 'Transfer_Re_Text' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:50][OK]   saved 6 table(s)
+[2026-06-15 16:09:50][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\5. Inventory Counting\1.Inventory Counting_ใบตรวจนับสินค้า_Befor\1.Inventory Counting_ใบตรวจนับสินค้า_Befor.rpt
+[2026-06-15 16:09:51][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:51][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:51][OK]   saved 2 table(s)
+[2026-06-15 16:09:51][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\5. Inventory Counting\2.Inventory Counting_ใบหลังตรวจนับสินค้า_After\2.Inventory Counting_ใบหลังตรวจนับสินค้า_After.rpt
+[2026-06-15 16:09:52][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:52][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:52][OK]   saved 2 table(s)
+[2026-06-15 16:09:52][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\6. Inventory Revaluation\1.Inventory Revaluation_ใบปรับมูลค่า_Price\1.Inventory Revaluation_ใบปรับมูลค่า_Price.rpt
+[2026-06-15 16:09:52][OK]   [main] 'Inventory_Re' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:52][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:52][OK]   saved 2 table(s)
+[2026-06-15 16:09:53][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\6. Inventory Revaluation\2.Inventory Revaluation_ใบปรับมูลค่า_DebitCredit\2.Inventory Revaluation_ใบปรับมูลค่า_DebitCredit.rpt
+[2026-06-15 16:09:53][OK]   [main] 'Inven_Revalue' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:53][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:53][OK]   saved 2 table(s)
+[2026-06-15 16:09:53][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\1. Production Order\1.Production Order_ใบสั่งผลิต\1.Production Order_ใบสั่งผลิต.rpt
+[2026-06-15 16:09:54][OK]   [main] 'Prodution_Order' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:54][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:54][OK]   [sub:Text] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:54][OK]   saved 3 table(s)
+[2026-06-15 16:09:54][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\2. Receipt from Production\1.Receipt from Production_ใบรับสินค้าจากการผลิต\1.Receipt from Production_ใบรับสินค้าจากการผลิต.rpt
+[2026-06-15 16:09:55][OK]   [main] 'Receipt_f_Production' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:55][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:55][OK]   [sub:TEXT] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:55][OK]   saved 3 table(s)
+[2026-06-15 16:09:55][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\2. Receipt from Production\2.Receipt from Production_ใบรับสินค้าจากการผลิต_(Batch_Serial)\2.Receipt from Production_ใบรับสินค้าจากการผลิต_(Batch_Serial).rpt
+[2026-06-15 16:09:55][OK]   [main] 'Receipt_f_Prodution' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:55][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:55][OK]   [sub:B/S Number] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:55][OK]   [sub:TEXT] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:55][OK]   saved 4 table(s)
+[2026-06-15 16:09:56][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\3. Issue for Production\1.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต\1.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต.rpt
+[2026-06-15 16:09:56][OK]   [main] 'Issue_f_Prodution' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:56][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:56][OK]   [sub:TEXT] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:56][OK]   saved 3 table(s)
+[2026-06-15 16:09:56][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\3. Issue for Production\2.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต_(Batch_Serial)\2.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต_(Batch_Serial).rpt
+[2026-06-15 16:09:56][OK]   [main] 'Issue_f_Prodution' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:56][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:56][OK]   [sub:B/S Num] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:56][OK]   [sub:TEXT] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:56][OK]   saved 4 table(s)
+[2026-06-15 16:09:57][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\ทะเบียนสินทรัพย์\ทะเบียนสินทรัพย์.rpt
+[2026-06-15 16:09:57][OK]   [main] 'คำสั่ง' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:57][OK]   saved 1 table(s)
+[2026-06-15 16:09:57][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\รายการขายทรัพย์สิน เรียงตามรหัสสินทรัพย์\รายการขายทรัพย์สิน เรียงตามรหัสสินทรัพย์.rpt
+[2026-06-15 16:09:58][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:58][OK]   saved 1 table(s)
+[2026-06-15 16:09:58][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\รายการสินทรัพย์เข้าใหม่ เรียงตามรหัสสินทรัพย์\รายการสินทรัพย์เข้าใหม่ เรียงตามรหัสสินทรัพย์.rpt
+[2026-06-15 16:09:58][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:59][OK]   saved 1 table(s)
+[2026-06-15 16:09:59][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\รายงานค่าเสื่อมประจำเดือน สรุปตามกลุ่มสินทรัพย์\รายงานค่าเสื่อมประจำเดือน สรุปตามกลุ่มสินทรัพย์.rpt
+[2026-06-15 16:09:59][OK]   [main] 'คำสั่ง' server '172.17.0.22' -> '172.17.0.22'
+[2026-06-15 16:09:59][OK]   saved 1 table(s)
+[2026-06-15 16:09:59][INFO] === Done. ok=75  err=0  skipped=0  total=75 ===
