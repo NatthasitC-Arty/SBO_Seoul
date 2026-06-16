@@ -1,0 +1,16 @@
+# Database backups / dumps (too large for git — keep out of repo)
+*.bak
+*.bacpac
+*.mdf
+*.ldf
+*.trn
+
+# SAP B1 exported binary blobs
+SBO_Seoul_OITM
+SBO_Seoul_*.bak
+
+# OS / editor cruft
+Thumbs.db
+desktop.ini
+.DS_Store
+*~
