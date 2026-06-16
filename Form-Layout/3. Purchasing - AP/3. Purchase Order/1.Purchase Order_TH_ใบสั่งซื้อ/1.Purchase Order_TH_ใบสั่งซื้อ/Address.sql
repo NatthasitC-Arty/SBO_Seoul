@@ -1,22 +1,13 @@
 ﻿-- ============================================================
 -- Report: 1.Purchase Order_TH_ใบสั่งซื้อ.rpt
-Path:   3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ.rpt
-Extracted: 2026-04-09 15:22:44
+Path:   1.Purchase Order_TH_ใบสั่งซื้อ.rpt
+Extracted: 2026-06-16 17:07:12
 -- Source: Main Report
--- Table:  Command
+-- Table:  Address
 -- ============================================================
 
-select 
-oadm.CompnyName,
-oadm.AliasName,
-oadm.Phone1,
-adm1.IntrntAdrs,
-oadm.RevOffice,
-adm1.Street,
-adm1.City,
-adm1.ZipCode,
+select CompnyName,adm1.Street,adm1.Block,adm1.City,adm1.County,adm1.ZipCode,AliasName,Phone1,IntrntAdrs,RevOffice,
 CASE WHEN adm1.GlblLocNum = '00000' THEN N'สำนักงานใหญ่'
   WHEN adm1.GlblLocNum <> '00000' THEN N'สาขาที่ ' + adm1.GlblLocNum
-  END as 'Branch Name'
-from oadm
-left join adm1 on oadm.Country = adm1.Country
+  END as 'GLN_H'
+from oadm,adm1,ADM2
