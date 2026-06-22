@@ -8,7 +8,7 @@ REM ============================================================
 
 REM --- Database (also used as DI API credentials) ---
 set SERVER=172.17.0.22
-set COMPANYDB=SBO_Seoul_UAT
+set COMPANYDB=SBO_Seoul_Clinic
 set DBUSER=sa
 set DBPASSWORD=Se@u1clinic
 
