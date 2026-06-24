@@ -4498,3 +4498,310 @@
 [2026-06-22 23:27:15][OK]   [main] 'คำสั่ง' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
 [2026-06-22 23:27:15][OK]   saved 1 table(s)
 [2026-06-22 23:27:16][INFO] === Done. ok=71  err=0  skipped=0  total=71 ===
+[2026-06-24 01:57:12][INFO] === Set-DatasourceLocation start ===
+[2026-06-24 01:57:12][INFO] Path=C:\GitHub\SBO_Seoul\Form-Layout  NewServer=172.17.0.22  OldServer=  NewDatabase=SBO_Seoul_Clinic  NewUser=  WhatIf=False
+[2026-06-24 01:57:12][INFO] Found 48 report file(s).
+[2026-06-24 01:57:12][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\1. Financials\1.Journal Entry_ใบบันทึกรายการบัญชี\1.Journal Entry_ใบบันทึกรายการบัญชี.rpt
+[2026-06-24 01:57:13][OK]   [main] 'Bank_JE' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:13][OK]   [main] 'Command_Addrees' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:13][OK]   [main] 'Create_Sign' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:13][OK]   saved 3 table(s)
+[2026-06-24 01:57:13][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\1. Sales Quotation\1.Sale Quotation_ใบเสนอราคาขาย_(Dis)\1.Sale Quotation_ใบเสนอราคาขาย_(Dis).rpt
+[2026-06-24 01:57:13][OK]   [main] 'AR_SQ' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:13][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:13][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:13][OK]   [main] 'Approve' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:13][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:13][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:13][OK]   saved 6 table(s)
+[2026-06-24 01:57:14][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\2. Sales Order\1.Sale Order_ใบสั่งขาย_(Dis)\1.Sale Order_ใบสั่งขาย_(Dis).rpt
+[2026-06-24 01:57:14][OK]   [main] 'AR_SO' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:14][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:14][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:14][OK]   [main] 'Approve' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:14][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:14][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:14][OK]   saved 6 table(s)
+[2026-06-24 01:57:14][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\3. Delivery\1.Delivery_ใบส่งของ_(Batch_Serial)\1.Delivery_ใบส่งของ_(Batch_Serial).rpt
+[2026-06-24 01:57:15][OK]   [main] 'AR_Delivery_BS' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:15][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:15][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:15][OK]   [sub:Batch/Serial] 'AR_Drlivery_BS' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:15][OK]   [sub:Haed_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:15][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:15][OK]   saved 6 table(s)
+[2026-06-24 01:57:15][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\4. Return\1.Retrun_ใบรับคืนสินค้า_(Batch_Serial)\1.Retrun_ใบรับคืนสินค้า_(Batch_Serial).rpt
+[2026-06-24 01:57:16][OK]   [main] 'AR_Retrun_BS' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:16][OK]   [main] 'OADM' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:16][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:16][OK]   [sub:Batch/Serial] 'AR_Retrun_BS' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:16][OK]   [sub:Head_Sup] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:16][OK]   [sub:Line_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:16][OK]   saved 6 table(s)
+[2026-06-24 01:57:16][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\5. AR Down Payment Invoice\1.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี\1.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-24 01:57:16][OK]   [main] 'AR_DownPayment' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:16][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:16][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:16][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:16][OK]   saved 4 table(s)
+[2026-06-24 01:57:17][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\6. AR Invoice\1.AR Invoice_ใบแจ้งหนี้_(Dis)\1.AR Invoice_ใบแจ้งหนี้.rpt
+[2026-06-24 01:57:17][OK]   [main] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:17][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:17][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:17][OK]   [sub:HeadRemark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:17][OK]   saved 4 table(s)
+[2026-06-24 01:57:18][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\2. Sales - AR\7. AR Credit Memo\1.AR_Credit Memo_ใบลดหนี้_(Dis)\1.AR_Credit Memo_ใบลดหนี้_(Dis) แก้ไขยอดเงิน.rpt
+[2026-06-24 01:57:18][OK]   [main] 'AR_CN' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:18][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:18][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:18][OK]   [sub:HREMARK] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:18][OK]   [sub:Text] 'AR_CN_Text' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:18][OK]   saved 5 table(s)
+[2026-06-24 01:57:19][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\1. Purchase Request\1.Purchase Request_TH_ใบขอซื้อ\1.Purchase Request_TH_ใบขอซื้อ.rpt
+[2026-06-24 01:57:19][OK]   [main] 'AP_PR' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:19][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:19][OK]   [main] 'Approve' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:19][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:19][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:19][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:20][OK]   saved 6 table(s)
+[2026-06-24 01:57:20][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\Purchase Order_Non_Vat.rpt
+[2026-06-24 01:57:20][OK]   [main] 'AP_PO' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:20][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:20][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:20][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:20][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:20][OK]   saved 5 table(s)
+[2026-06-24 01:57:21][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\Purchase Order_Vat_Show.rpt
+[2026-06-24 01:57:21][OK]   [main] 'AP_PO' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:21][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:21][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:21][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:21][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:21][OK]   saved 5 table(s)
+[2026-06-24 01:57:22][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_TH_ใบสั่งซื้อ\Purchase Order.rpt
+[2026-06-24 01:57:22][OK]   [main] 'AP_PO' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:22][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:22][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:22][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:22][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:22][OK]   saved 5 table(s)
+[2026-06-24 01:57:22][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\4. Goods Receipt PO\1.Goods Receive PO_TH_ใบรับสินค้า_(Batch_Serial) - Copy\1.Goods Reciept PO_TH_ใบรับสินค้า_(Batch_Serial).rpt
+[2026-06-24 01:57:23][OK]   [main] 'AP_GRPO_BN' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:23][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:23][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:23][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:23][OK]   [sub:Batch/Serial] 'AP_GRPO_BN' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:23][OK]   [sub:Hremark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:23][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:23][OK]   saved 7 table(s)
+[2026-06-24 01:57:23][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\5. Goods Return\1.Goods Return_EN_ใบส่งคืนสินค้า_(Batch_Serial)\1.Goods Return_TH_ใบส่งคืนสินค้า_(Batch_Serial).rpt
+[2026-06-24 01:57:24][OK]   [main] 'AP_GR_BN' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:24][OK]   [main] 'Company' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:24][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:24][OK]   [main] 'Command_1' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:24][OK]   [sub:Head_Sub] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:24][OK]   [sub:Remark] 'Remark' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:24][OK]   [sub:batch&serial] 'AP_GR_BN' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:24][OK]   saved 7 table(s)
+[2026-06-24 01:57:25][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\6. AP Down Payment Invoice\1.AP Down Payment Invoice_ใบจ่ายเงินมัดจำ_ใบแจ้งหนี้\1.AP Down Payment Invoice_ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt
+[2026-06-24 01:57:25][OK]   [main] 'AP_DownPayment' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:25][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:25][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:25][OK]   [sub:HaedRemark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:25][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:25][OK]   saved 5 table(s)
+[2026-06-24 01:57:26][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\7. AP Invoice\1.AP Invoice_ใบแจ้งหนี้_(Batch_Serial)\1.AP Invoice_ใบแจ้งหนี้_(Batch_Serial).rpt
+[2026-06-24 01:57:26][OK]   [main] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:26][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:26][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:26][OK]   [sub:HeadRemark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:26][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:26][OK]   [sub:batch&sserial] 'AP_INV_BN' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:26][OK]   saved 6 table(s)
+[2026-06-24 01:57:27][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\8. AP Credit Memo\1.AP Credit Memo_ใบลดหนี้\1.AP Credit Memo_ใบลดหนี้.rpt
+[2026-06-24 01:57:27][OK]   [main] 'AP_CN' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:27][OK]   [main] 'HAddress' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:27][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:27][OK]   [sub:HeadRemark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:27][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:27][OK]   saved 5 table(s)
+[2026-06-24 01:57:28][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\3. Purchasing - AP\9. Landed Costs\1.Landed Costs_ใบปรับราคาต้นทุนสินค้า\1.Landed Costs_ใบปรับราคาต้นทุนสินค้า.rpt
+[2026-06-24 01:57:28][OK]   [main] 'Landed_Cost' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:28][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:28][OK]   [sub:Landed_Cost] 'Landed_Cost' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:28][OK]   saved 3 table(s)
+[2026-06-24 01:57:28][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\1. Incoming Payments\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี.rpt
+[2026-06-24 01:57:29][OK]   [main] 'Bank_ReceiptTax' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:29][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:29][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:29][OK]   [sub:CheckNum] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:29][OK]   saved 4 table(s)
+[2026-06-24 01:57:29][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\4. Banking\2. Outgoing Payments\1.Outgoing Payments_ใบจ่ายชำระ\1.Outgoing Payments_ใบจ่ายชำระ.rpt
+[2026-06-24 01:57:30][OK]   [main] 'Bank_Payment' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:30][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:30][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:30][OK]   [sub:Bank] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:30][OK]   [sub:Cash] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:30][OK]   [sub:Credit Card] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:30][OK]   [sub:JE] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:30][OK]   [sub:Report] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:30][OK]   [sub:TranFer] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:30][OK]   saved 9 table(s)
+[2026-06-24 01:57:31][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\1.Goods Receipt_ใบรับสินค้า\1.Goods Receipt_ใบรับสินค้า.rpt
+[2026-06-24 01:57:31][OK]   [main] 'G_Receipt' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:31][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:31][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:31][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:31][OK]   saved 4 table(s)
+[2026-06-24 01:57:32][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\1. Goods Receipt\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial)\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial).rpt
+[2026-06-24 01:57:32][OK]   [main] 'G_Receipt' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:32][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:32][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:32][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:32][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:32][OK]   saved 5 table(s)
+[2026-06-24 01:57:33][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\1.Goods Issue_ใบเบิกสินค้า\1.Goods Issue_ENG ใบเบิกสินค้า.rpt
+[2026-06-24 01:57:33][OK]   [main] 'G_Issue_BS' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:33][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:33][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:33][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:33][OK]   saved 4 table(s)
+[2026-06-24 01:57:33][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\1.Goods Issue_ใบเบิกสินค้า\1.Goods Issue_ใบเบิกสินค้า.rpt
+[2026-06-24 01:57:33][OK]   [main] 'G_Issue_BS' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:33][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:33][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:33][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:34][OK]   saved 4 table(s)
+[2026-06-24 01:57:34][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial)\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial).rpt
+[2026-06-24 01:57:34][OK]   [main] 'G_Issue_BS' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:34][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:34][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:34][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:34][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:34][OK]   saved 5 table(s)
+[2026-06-24 01:57:34][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\2. Goods Issue\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial)\2.Goods Issue_ใบเบิกสินค้า_ENG (Batch_Serial).rpt
+[2026-06-24 01:57:35][OK]   [main] 'G_Issue_BS' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:35][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:35][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:35][OK]   [sub:Head_Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:35][OK]   [sub:Remark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:35][OK]   saved 5 table(s)
+[2026-06-24 01:57:35][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\3. Inventory Transfer Request\1.Inventory Transfer Request_ใบขอโอนสินค้า\1.Inventory Transfer Request_ใบขอโอนสินค้า.rpt
+[2026-06-24 01:57:36][OK]   [main] 'Transfer_Re' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:36][OK]   [main] 'Transfer_Re_Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:36][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:36][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:36][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:36][OK]   [sub:TEXT] 'Transfer_Re_Text' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:36][OK]   saved 6 table(s)
+[2026-06-24 01:57:36][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\4. Inventory Transfer\2.Inventory Transfer_ใบโอนสินค้า(Batch_Serial)\2.Inventory Transfer_ใบโอนสินค้า_TH_(Batch_Serial).rpt
+[2026-06-24 01:57:37][OK]   [main] 'Transfer' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:37][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:37][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:37][OK]   [sub:Batch] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:37][OK]   [sub:HRemark] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:37][OK]   [sub:TEXT] 'Transfer_Re_Text' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:37][OK]   saved 6 table(s)
+[2026-06-24 01:57:37][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\5. Inventory Counting\1.Inventory Counting_ใบตรวจนับสินค้า_Befor\1.Inventory Counting_ใบตรวจนับสินค้า_Befor.rpt
+[2026-06-24 01:57:38][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:38][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:38][OK]   saved 2 table(s)
+[2026-06-24 01:57:38][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\5. Inventory Counting\2.Inventory Counting_ใบหลังตรวจนับสินค้า_After\2.Inventory Counting_ใบหลังตรวจนับสินค้า_After.rpt
+[2026-06-24 01:57:39][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:39][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:39][OK]   saved 2 table(s)
+[2026-06-24 01:57:39][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\6. Inventory Revaluation\1.Inventory Revaluation_ใบปรับมูลค่า_Price\1.Inventory Revaluation_ใบปรับมูลค่า_Price.rpt
+[2026-06-24 01:57:40][OK]   [main] 'Inventory_Re' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:40][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:40][OK]   saved 2 table(s)
+[2026-06-24 01:57:40][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\5. Inventory\6. Inventory Revaluation\2.Inventory Revaluation_ใบปรับมูลค่า_DebitCredit\2.Inventory Revaluation_ใบปรับมูลค่า_DebitCredit.rpt
+[2026-06-24 01:57:41][OK]   [main] 'Inven_Revalue' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:41][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:41][OK]   saved 2 table(s)
+[2026-06-24 01:57:41][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\1. Production Order\1.Production Order_ใบสั่งผลิต\1.Production Order_ใบสั่งผลิต.rpt
+[2026-06-24 01:57:42][OK]   [main] 'Prodution_Order' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:42][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:42][OK]   [sub:Text] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:42][OK]   saved 3 table(s)
+[2026-06-24 01:57:42][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\2. Receipt from Production\2.Receipt from Production_ใบรับสินค้าจากการผลิต_(Batch_Serial)\2.Receipt from Production_ใบรับสินค้าจากการผลิต_(Batch_Serial).rpt
+[2026-06-24 01:57:43][OK]   [main] 'Receipt_f_Prodution' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:43][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:43][OK]   [sub:B/S Number] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:43][OK]   [sub:TEXT] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:43][OK]   saved 4 table(s)
+[2026-06-24 01:57:43][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\6. Production\3. Issue for Production\2.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต_(Batch_Serial)\2.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต_(Batch_Serial).rpt
+[2026-06-24 01:57:43][OK]   [main] 'Issue_f_Prodution' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:43][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:43][OK]   [sub:B/S Num] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:43][OK]   [sub:TEXT] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:44][OK]   saved 4 table(s)
+[2026-06-24 01:57:44][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\ทะเบียนสินทรัพย์\ทะเบียนสินทรัพย์.rpt
+[2026-06-24 01:57:44][OK]   [main] 'คำสั่ง' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:44][OK]   saved 1 table(s)
+[2026-06-24 01:57:45][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\รายการขายทรัพย์สิน เรียงตามรหัสสินทรัพย์\รายการขายทรัพย์สิน เรียงตามรหัสสินทรัพย์.rpt
+[2026-06-24 01:57:45][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:45][OK]   saved 1 table(s)
+[2026-06-24 01:57:46][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\รายการสินทรัพย์เข้าใหม่ เรียงตามรหัสสินทรัพย์\รายการสินทรัพย์เข้าใหม่ เรียงตามรหัสสินทรัพย์.rpt
+[2026-06-24 01:57:47][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:47][OK]   saved 1 table(s)
+[2026-06-24 01:57:47][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\7.Fixed Asset\รายงานค่าเสื่อมประจำเดือน สรุปตามกลุ่มสินทรัพย์\รายงานค่าเสื่อมประจำเดือน สรุปตามกลุ่มสินทรัพย์.rpt
+[2026-06-24 01:57:48][OK]   [main] 'คำสั่ง' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:48][OK]   saved 1 table(s)
+[2026-06-24 01:57:48][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\9.TST\SQL_TST\PD-PP30 - N_03.rpt
+[2026-06-24 01:57:48][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:48][OK]   [main] 'Command_1' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:48][OK]   saved 2 table(s)
+[2026-06-24 01:57:49][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\9.TST\SQL_TST\PD-PP30-Detail - N_03.rpt
+[2026-06-24 01:57:49][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:49][OK]   [sub:Branch] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:49][OK]   saved 2 table(s)
+[2026-06-24 01:57:50][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\9.TST\SQL_TST\PD-VatTax.rpt
+[2026-06-24 01:57:50][OK]   [main] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:50][OK]   [main] 'Command_1' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:50][OK]   [sub:detail] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:50][OK]   [sub:detail.rpt] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:50][OK]   [sub:detail.rpt - 01] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:51][OK]   saved 5 table(s)
+[2026-06-24 01:57:51][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\9.TST\SQL_TST\PD-Wht03-50_-_N_03_New.rpt
+[2026-06-24 01:57:51][OK]   [main] 'Detail' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:51][OK]   [main] 'Header' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:51][OK]   [sub:WhtDetail] 'PD0350' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:51][OK]   [sub:WhtDetail.rpt] 'PD0350' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:51][OK]   [sub:WhtDetail.rpt - 01] 'PD0350' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:51][OK]   [sub:WhtDetail1.rpt] 'PD0350' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:51][OK]   [sub:WhtDetail2.rpt] 'PD0350' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:52][OK]   saved 7 table(s)
+[2026-06-24 01:57:52][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\9.TST\SQL_TST\PD-Wht3 - N_03.rpt
+[2026-06-24 01:57:53][OK]   [main] 'Header' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:53][OK]   [main] 'WtaxAmnt' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:53][OK]   [main] 'YearmountSubmit' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:53][OK]   [main] 'CountRow' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:53][OK]   saved 4 table(s)
+[2026-06-24 01:57:53][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\9.TST\SQL_TST\PD-Wht3-Detail - N_03.rpt
+[2026-06-24 01:57:54][OK]   [main] 'Detail' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:54][OK]   [main] 'WtaxAmnt' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:54][OK]   [main] 'Header' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:54][OK]   [sub:DetailWht3] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:54][OK]   saved 4 table(s)
+[2026-06-24 01:57:54][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\9.TST\SQL_TST\PD-Wht53 - N_03.rpt
+[2026-06-24 01:57:55][OK]   [main] 'Header' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:55][OK]   [main] 'Wtaxamnt' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:55][OK]   [main] 'YearMountSubmit' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:55][OK]   [main] 'CountRow' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:55][OK]   saved 4 table(s)
+[2026-06-24 01:57:55][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\9.TST\SQL_TST\PD-Wht53-50_-_N_03_New.rpt
+[2026-06-24 01:57:56][OK]   [main] 'Detail' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:56][OK]   [main] 'Header' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:56][OK]   [sub:WhtDetail] 'PD5350' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:56][OK]   [sub:WhtDetail.rpt] 'PD5350' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:56][OK]   [sub:WhtDetail.rpt - 01] 'PD5350' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:56][OK]   [sub:WhtDetail1.rpt] 'PD5350' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:56][OK]   [sub:WhtDetail2.rpt] 'PD5350' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:56][OK]   saved 7 table(s)
+[2026-06-24 01:57:57][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\9.TST\SQL_TST\PD-Wht53-Detail - N_03.rpt
+[2026-06-24 01:57:57][OK]   [main] 'Detail' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:57][OK]   [main] 'Header' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:57][OK]   [sub:DetailWht3] 'Command' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-06-24 01:57:57][OK]   saved 3 table(s)
+[2026-06-24 01:57:58][INFO] === Done. ok=48  err=0  skipped=0  total=48 ===
