@@ -3203,3 +3203,37 @@ The statement has been terminated."
 [2026-06-22 09:33:19] [INFO]   OK UPSERT->ADD 181|38|U_SLD_Cat_Name Action=UPSERT IndexID=99
 [2026-06-22 09:33:19] [INFO]   Triggers (SHS1) IndexID=99 : -0 +1 (2)
 [2026-06-22 09:33:19] [INFO] Committed. OK=99 FAIL=0 SKIP=0
+[2026-06-22 22:23:54] [INFO] === Start UDV Import (SQL Direct) ===
+[2026-06-22 22:23:54] [INFO] MapFile: C:\Github\SBO_Seoul\Form-Layout\ImportUDV\Config\UDV_PO_142.csv  (17 CSV rows)
+[2026-06-22 22:23:54] [INFO] DryRun : False
+[2026-06-22 22:23:54] [INFO] Grouped to 10 unique CSHS key(s)
+[2026-06-22 22:23:54] [INFO] Connected to SQL: SERVERSAPSQL / SBO_Seoul_Test
+[2026-06-22 22:23:54] [INFO] Pre-loaded 79 existing CSHS rows
+[2026-06-22 22:23:54] [INFO] Pre-loaded 210 OUQR queries
+[2026-06-22 22:23:54] [INFO] Current MAX(IndexID)=79
+[2026-06-22 22:23:54] [INFO] Current MAX(IntrnalKey)=358
+[2026-06-22 22:23:54] [INFO]   OK UPSERT->UPDATE 142|38|1 Action=UPSERT IndexID=70
+[2026-06-22 22:23:54] [INFO]   OK UPSERT->UPDATE 142|38|20 Action=UPSERT IndexID=50
+[2026-06-22 22:23:54] [INFO]   Created Query 'FMS_LineTotal_PO' IntrnalKey=359
+[2026-06-22 22:23:54] [INFO]   OK UPSERT->UPDATE 142|38|21 Action=UPSERT IndexID=51
+[2026-06-22 22:23:54] [INFO]   Triggers (SHS1) IndexID=51 : -0 +3 (U_SLD_Dis_Amount, U_SLD_Free, U_SLD_Unitprice)
+[2026-06-22 22:23:54] [INFO]   Reuse Query 'BeforVAT' (IntrnalKey=355), body updated
+[2026-06-22 22:23:54] [INFO]   OK UPSERT->UPDATE 142|38|U_SLD_BeforeVat Action=UPSERT IndexID=71
+[2026-06-22 22:23:54] [INFO]   Triggers (SHS1) IndexID=71 : -0 +1 (20)
+[2026-06-22 22:23:54] [INFO]   Created Query 'FMS_BPCatalogDes' IntrnalKey=360
+[2026-06-22 22:23:54] [INFO]   OK UPSERT->ADD 142|38|U_SLD_Cat_Name Action=UPSERT IndexID=80
+[2026-06-22 22:23:54] [INFO]   Triggers (SHS1) IndexID=80 : -0 +1 (2)
+[2026-06-22 22:23:54] [INFO]   Created Query 'FMS_Discount_PO' IntrnalKey=361
+[2026-06-22 22:23:54] [INFO]   OK UPSERT->UPDATE 142|38|U_SLD_Dis_Amount Action=UPSERT IndexID=52
+[2026-06-22 22:23:54] [INFO]   Triggers (SHS1) IndexID=52 : -0 +4 (15, 11, U_SLD_Free, U_SLD_Unitprice)
+[2026-06-22 22:23:54] [INFO]   Created Query 'FMS_Price_Total_PO' IntrnalKey=362
+[2026-06-22 22:23:54] [INFO]   OK UPSERT->UPDATE 142|38|U_SLD_T_BeDis Action=UPSERT IndexID=15
+[2026-06-22 22:23:55] [INFO]   Triggers (SHS1) IndexID=15 : -2 +3 (11, U_SLD_Free, U_SLD_Unitprice)
+[2026-06-22 22:23:55] [INFO]   Created Query 'FMS_UnitCost_PO' IntrnalKey=363
+[2026-06-22 22:23:55] [INFO]   OK UPSERT->ADD 142|38|14 Action=UPSERT IndexID=81
+[2026-06-22 22:23:55] [INFO]   Triggers (SHS1) IndexID=81 : -0 +1 (21)
+[2026-06-22 22:23:55] [INFO]   Created Query 'FMS_TaxGroup' IntrnalKey=364
+[2026-06-22 22:23:55] [INFO]   OK UPSERT->ADD 142|38|U_SLD_Tax_Form Action=UPSERT IndexID=82
+[2026-06-22 22:23:55] [INFO]   Created Query 'FMS_Filter_Asset' IntrnalKey=365
+[2026-06-22 22:23:55] [INFO]   OK UPSERT->ADD 142|38|U_SLD_Asset Action=UPSERT IndexID=83
+[2026-06-22 22:23:55] [INFO] Committed. OK=10 FAIL=0 SKIP=0
