@@ -1,0 +1,386 @@
+﻿"Action","FormID","ItemID","ColumnID","FMSAction","QueryName","QueryCategory","QueryBody","FixedValue","Refresh","ByField","TriggerID","TriggerColumn","ForceRefresh"
+"UPSERT","142","38","1","F","","","","","N","N","","","N"
+"UPSERT","142","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","11","","N"
+"UPSERT","142","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","U_SLD_Dis_Amount","","N"
+"UPSERT","142","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","U_SLD_Free","","N"
+"UPSERT","142","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","U_SLD_Unitprice","","N"
+"UPSERT","142","38","20","F","","","","","N","C","","","N"
+"UPSERT","142","38","21","Q","FMS_LineTotal","29","SELECT    CASE      -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)      WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0        THEN CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          AS DECIMAL(19,6))      -- B) มีส่วนลด → gross − Dis (Exclusive)      ELSE        CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          - $[$38.U_SLD_Dis_Amount.NUMBER]          AS DECIMAL(19,6))    END","","Y","N","11","","N"
+"UPSERT","142","38","21","Q","FMS_LineTotal","29","SELECT    CASE      -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)      WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0        THEN CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          AS DECIMAL(19,6))      -- B) มีส่วนลด → gross − Dis (Exclusive)      ELSE        CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          - $[$38.U_SLD_Dis_Amount.NUMBER]          AS DECIMAL(19,6))    END","","Y","N","14","","N"
+"UPSERT","142","38","21","Q","FMS_LineTotal","29","SELECT    CASE      -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)      WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0        THEN CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          AS DECIMAL(19,6))      -- B) มีส่วนลด → gross − Dis (Exclusive)      ELSE        CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          - $[$38.U_SLD_Dis_Amount.NUMBER]          AS DECIMAL(19,6))    END","","Y","N","U_SLD_Free","","N"
+"UPSERT","142","38","U_SLD_Asset","Q","FMS_Filter_Asset","29","select ItemCode,ItemName,AssetSerNo
+from oitm
+where ItemType ='F'And validFor = 'Y'","","N","N","","","N"
+"UPSERT","142","38","U_SLD_BeforeVat","Q","BeforVAT","29","SELECT $[$38.20.NUMBER] / 1.07","","N","N","20","","N"
+"UPSERT","142","38","U_SLD_Cat_Name","Q","FMS_BPCatalogDes","29","SELECT T0.[Descriptio] 
+FROM OSCN T0 
+WHERE T0.[Substitute] = $[$38.2.0] 
+  AND T0.[CardCode] = $[$4.0.0]","","Y","C","2","","N"
+"UPSERT","142","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","11","","N"
+"UPSERT","142","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","15","","N"
+"UPSERT","142","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","U_SLD_Free","","N"
+"UPSERT","142","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","U_SLD_Unitprice","","N"
+"UPSERT","142","38","U_SLD_T_BeDis","Q","FMS_Price_Total_PO","29","SELECT CAST(($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER] AS numeric(19,6))","","Y","N","11","","N"
+"UPSERT","142","38","U_SLD_T_BeDis","Q","FMS_Price_Total_PO","29","SELECT CAST(($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER] AS numeric(19,6))","","Y","N","U_SLD_Free","","N"
+"UPSERT","142","38","U_SLD_T_BeDis","Q","FMS_Price_Total_PO","29","SELECT CAST(($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER] AS numeric(19,6))","","Y","N","U_SLD_Unitprice","","N"
+"UPSERT","142","38","U_SLD_Tax_Form","Q","FMS_TaxGroup","29","SELECT T0.[Code] AS 'Tax Group',
+T0.[Name] AS 'Description', T0.[Rate] AS 'Tax Rate (%)' 
+FROM OVTG T0
+WHERE T0.[Category] = 'I' AND T0.[Inactive] = 'N'","","N","N","","","N"
+"UPSERT","142","38","U_SLD_Unitprice","Q","FMS_Default","29","SELECT T0.PriceFROM ITM1 T0WHERE T0.ItemCode = $[$38.1.0]AND T0.PriceList = '1'","","Y","N","1","","N"
+"UPSERT","141","38","1","F","","","","","N","N","","","N"
+"UPSERT","141","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","11","","N"
+"UPSERT","141","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","U_SLD_Dis_Amount","","N"
+"UPSERT","141","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","U_SLD_Free","","N"
+"UPSERT","141","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","U_SLD_Unitprice","","N"
+"UPSERT","141","38","20","F","","","","","N","C","","","N"
+"UPSERT","141","38","21","Q","FMS_LineTotal","29","SELECT    CASE      -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)      WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0        THEN CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          AS DECIMAL(19,6))      -- B) มีส่วนลด → gross − Dis (Exclusive)      ELSE        CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          - $[$38.U_SLD_Dis_Amount.NUMBER]          AS DECIMAL(19,6))    END","","Y","N","11","","N"
+"UPSERT","141","38","21","Q","FMS_LineTotal","29","SELECT    CASE      -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)      WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0        THEN CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          AS DECIMAL(19,6))      -- B) มีส่วนลด → gross − Dis (Exclusive)      ELSE        CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          - $[$38.U_SLD_Dis_Amount.NUMBER]          AS DECIMAL(19,6))    END","","Y","N","14","","N"
+"UPSERT","141","38","21","Q","FMS_LineTotal","29","SELECT    CASE      -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)      WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0        THEN CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          AS DECIMAL(19,6))      -- B) มีส่วนลด → gross − Dis (Exclusive)      ELSE        CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          - $[$38.U_SLD_Dis_Amount.NUMBER]          AS DECIMAL(19,6))    END","","Y","N","U_SLD_Free","","N"
+"UPSERT","141","38","U_SLD_Asset","Q","FMS_Filter_Asset","29","select ItemCode,ItemName,AssetSerNo
+from oitm
+where ItemType ='F'And validFor = 'Y'","","N","N","","","N"
+"UPSERT","141","38","U_SLD_BeforeVat","Q","BeforVAT","29","SELECT $[$38.20.NUMBER] / 1.07","","N","N","20","","N"
+"UPSERT","141","38","U_SLD_Cat_Name","Q","FMS_BPCatalogDes","29","SELECT T0.[Descriptio] 
+FROM OSCN T0 
+WHERE T0.[Substitute] = $[$38.2.0] 
+  AND T0.[CardCode] = $[$4.0.0]","","Y","C","2","","N"
+"UPSERT","141","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","11","","N"
+"UPSERT","141","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","15","","N"
+"UPSERT","141","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","U_SLD_Free","","N"
+"UPSERT","141","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","U_SLD_Unitprice","","N"
+"UPSERT","141","38","U_SLD_T_BeDis","Q","FMS_Price_Total_PO","29","SELECT CAST(($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER] AS numeric(19,6))","","Y","N","11","","N"
+"UPSERT","141","38","U_SLD_T_BeDis","Q","FMS_Price_Total_PO","29","SELECT CAST(($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER] AS numeric(19,6))","","Y","N","U_SLD_Free","","N"
+"UPSERT","141","38","U_SLD_T_BeDis","Q","FMS_Price_Total_PO","29","SELECT CAST(($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER] AS numeric(19,6))","","Y","N","U_SLD_Unitprice","","N"
+"UPSERT","141","38","U_SLD_Tax_Form","Q","FMS_TaxGroup","29","SELECT T0.[Code] AS 'Tax Group',
+T0.[Name] AS 'Description', T0.[Rate] AS 'Tax Rate (%)' 
+FROM OVTG T0
+WHERE T0.[Category] = 'I' AND T0.[Inactive] = 'N'","","N","N","","","N"
+"UPSERT","141","38","U_SLD_Unitprice","Q","FMS_Default","29","SELECT T0.PriceFROM ITM1 T0WHERE T0.ItemCode = $[$38.1.0]AND T0.PriceList = '1'","","Y","N","1","","N"
+"UPSERT","143","38","1","F","","","","","N","N","","","N"
+"UPSERT","143","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","11","","N"
+"UPSERT","143","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","U_SLD_Dis_Amount","","N"
+"UPSERT","143","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","U_SLD_Free","","N"
+"UPSERT","143","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","U_SLD_Unitprice","","N"
+"UPSERT","143","38","20","F","","","","","N","C","","","N"
+"UPSERT","143","38","21","Q","FMS_LineTotal","29","SELECT    CASE      -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)      WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0        THEN CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          AS DECIMAL(19,6))      -- B) มีส่วนลด → gross − Dis (Exclusive)      ELSE        CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          - $[$38.U_SLD_Dis_Amount.NUMBER]          AS DECIMAL(19,6))    END","","Y","N","11","","N"
+"UPSERT","143","38","21","Q","FMS_LineTotal","29","SELECT    CASE      -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)      WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0        THEN CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          AS DECIMAL(19,6))      -- B) มีส่วนลด → gross − Dis (Exclusive)      ELSE        CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          - $[$38.U_SLD_Dis_Amount.NUMBER]          AS DECIMAL(19,6))    END","","Y","N","14","","N"
+"UPSERT","143","38","21","Q","FMS_LineTotal","29","SELECT    CASE      -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)      WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0        THEN CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          AS DECIMAL(19,6))      -- B) มีส่วนลด → gross − Dis (Exclusive)      ELSE        CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          - $[$38.U_SLD_Dis_Amount.NUMBER]          AS DECIMAL(19,6))    END","","Y","N","U_SLD_Free","","N"
+"UPSERT","143","38","U_SLD_Asset","Q","FMS_Filter_Asset","29","select ItemCode,ItemName,AssetSerNo
+from oitm
+where ItemType ='F'And validFor = 'Y'","","N","N","","","N"
+"UPSERT","143","38","U_SLD_BeforeVat","Q","BeforVAT","29","SELECT $[$38.20.NUMBER] / 1.07","","N","N","20","","N"
+"UPSERT","143","38","U_SLD_Cat_Name","Q","FMS_BPCatalogDes","29","SELECT T0.[Descriptio] 
+FROM OSCN T0 
+WHERE T0.[Substitute] = $[$38.2.0] 
+  AND T0.[CardCode] = $[$4.0.0]","","Y","C","2","","N"
+"UPSERT","143","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","11","","N"
+"UPSERT","143","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","15","","N"
+"UPSERT","143","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","U_SLD_Free","","N"
+"UPSERT","143","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","U_SLD_Unitprice","","N"
+"UPSERT","143","38","U_SLD_T_BeDis","Q","FMS_Price_Total_PO","29","SELECT CAST(($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER] AS numeric(19,6))","","Y","N","11","","N"
+"UPSERT","143","38","U_SLD_T_BeDis","Q","FMS_Price_Total_PO","29","SELECT CAST(($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER] AS numeric(19,6))","","Y","N","U_SLD_Free","","N"
+"UPSERT","143","38","U_SLD_T_BeDis","Q","FMS_Price_Total_PO","29","SELECT CAST(($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER] AS numeric(19,6))","","Y","N","U_SLD_Unitprice","","N"
+"UPSERT","143","38","U_SLD_Tax_Form","Q","FMS_TaxGroup","29","SELECT T0.[Code] AS 'Tax Group',
+T0.[Name] AS 'Description', T0.[Rate] AS 'Tax Rate (%)' 
+FROM OVTG T0
+WHERE T0.[Category] = 'I' AND T0.[Inactive] = 'N'","","N","N","","","N"
+"UPSERT","143","38","U_SLD_Unitprice","Q","FMS_Default","29","SELECT T0.PriceFROM ITM1 T0WHERE T0.ItemCode = $[$38.1.0]AND T0.PriceList = '1'","","Y","N","1","","N"
+"UPSERT","181","38","1","F","","","","","N","N","","","N"
+"UPSERT","181","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","11","","N"
+"UPSERT","181","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","U_SLD_Dis_Amount","","N"
+"UPSERT","181","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","U_SLD_Free","","N"
+"UPSERT","181","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","U_SLD_Unitprice","","N"
+"UPSERT","181","38","20","F","","","","","N","C","","","N"
+"UPSERT","181","38","21","Q","FMS_LineTotal","29","SELECT    CASE      -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)      WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0        THEN CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          AS DECIMAL(19,6))      -- B) มีส่วนลด → gross − Dis (Exclusive)      ELSE        CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          - $[$38.U_SLD_Dis_Amount.NUMBER]          AS DECIMAL(19,6))    END","","Y","N","11","","N"
+"UPSERT","181","38","21","Q","FMS_LineTotal","29","SELECT    CASE      -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)      WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0        THEN CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          AS DECIMAL(19,6))      -- B) มีส่วนลด → gross − Dis (Exclusive)      ELSE        CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          - $[$38.U_SLD_Dis_Amount.NUMBER]          AS DECIMAL(19,6))    END","","Y","N","14","","N"
+"UPSERT","181","38","21","Q","FMS_LineTotal","29","SELECT    CASE      -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)      WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0        THEN CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          AS DECIMAL(19,6))      -- B) มีส่วนลด → gross − Dis (Exclusive)      ELSE        CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          - $[$38.U_SLD_Dis_Amount.NUMBER]          AS DECIMAL(19,6))    END","","Y","N","U_SLD_Free","","N"
+"UPSERT","181","38","U_SLD_Asset","Q","FMS_Filter_Asset","29","select ItemCode,ItemName,AssetSerNo
+from oitm
+where ItemType ='F'And validFor = 'Y'","","N","N","","","N"
+"UPSERT","181","38","U_SLD_BeforeVat","Q","BeforVAT","29","SELECT $[$38.20.NUMBER] / 1.07","","N","N","20","","N"
+"UPSERT","181","38","U_SLD_Cat_Name","Q","FMS_BPCatalogDes","29","SELECT T0.[Descriptio] 
+FROM OSCN T0 
+WHERE T0.[Substitute] = $[$38.2.0] 
+  AND T0.[CardCode] = $[$4.0.0]","","Y","C","2","","N"
+"UPSERT","181","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","11","","N"
+"UPSERT","181","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","15","","N"
+"UPSERT","181","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","U_SLD_Free","","N"
+"UPSERT","181","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","U_SLD_Unitprice","","N"
+"UPSERT","181","38","U_SLD_T_BeDis","Q","FMS_Price_Total_PO","29","SELECT CAST(($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER] AS numeric(19,6))","","Y","N","11","","N"
+"UPSERT","181","38","U_SLD_T_BeDis","Q","FMS_Price_Total_PO","29","SELECT CAST(($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER] AS numeric(19,6))","","Y","N","U_SLD_Free","","N"
+"UPSERT","181","38","U_SLD_T_BeDis","Q","FMS_Price_Total_PO","29","SELECT CAST(($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER] AS numeric(19,6))","","Y","N","U_SLD_Unitprice","","N"
+"UPSERT","181","38","U_SLD_Tax_Form","Q","FMS_TaxGroup","29","SELECT T0.[Code] AS 'Tax Group',
+T0.[Name] AS 'Description', T0.[Rate] AS 'Tax Rate (%)' 
+FROM OVTG T0
+WHERE T0.[Category] = 'I' AND T0.[Inactive] = 'N'","","N","N","","","N"
+"UPSERT","181","38","U_SLD_Unitprice","Q","FMS_Default","29","SELECT T0.PriceFROM ITM1 T0WHERE T0.ItemCode = $[$38.1.0]AND T0.PriceList = '1'","","Y","N","1","","N"
+"UPSERT","540000405","38","1","F","","","","","N","N","","","N"
+"UPSERT","540000405","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","11","","N"
+"UPSERT","540000405","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","U_SLD_Dis_Amount","","N"
+"UPSERT","540000405","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","U_SLD_Free","","N"
+"UPSERT","540000405","38","14","Q","Unipris","29","SELECT      CASE        -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)        WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0          THEN CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER])            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))        -- B) มีส่วนลด → gross − Dis (Exclusive)        ELSE          CAST(            (($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))              * $[$38.U_SLD_Unitprice.NUMBER]            - $[$38.U_SLD_Dis_Amount.NUMBER] )            / CAST($[$38.11.NUMBER] AS DECIMAL(19,6))            AS DECIMAL(19,6))      END","","Y","N","U_SLD_Unitprice","","N"
+"UPSERT","540000405","38","20","F","","","","","N","C","","","N"
+"UPSERT","540000405","38","21","Q","FMS_LineTotal","29","SELECT    CASE      -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)      WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0        THEN CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          AS DECIMAL(19,6))      -- B) มีส่วนลด → gross − Dis (Exclusive)      ELSE        CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          - $[$38.U_SLD_Dis_Amount.NUMBER]          AS DECIMAL(19,6))    END","","Y","N","11","","N"
+"UPSERT","540000405","38","21","Q","FMS_LineTotal","29","SELECT    CASE      -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)      WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0        THEN CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          AS DECIMAL(19,6))      -- B) มีส่วนลด → gross − Dis (Exclusive)      ELSE        CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          - $[$38.U_SLD_Dis_Amount.NUMBER]          AS DECIMAL(19,6))    END","","Y","N","14","","N"
+"UPSERT","540000405","38","21","Q","FMS_LineTotal","29","SELECT    CASE      -- A) ไม่มีส่วนลด → gross เต็ม (ไม่ลด)      WHEN ISNULL($[$38.U_SLD_Dis_Amount.NUMBER], 0) = 0        THEN CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          AS DECIMAL(19,6))      -- B) มีส่วนลด → gross − Dis (Exclusive)      ELSE        CAST(          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0))            * $[$38.U_SLD_Unitprice.NUMBER]          - $[$38.U_SLD_Dis_Amount.NUMBER]          AS DECIMAL(19,6))    END","","Y","N","U_SLD_Free","","N"
+"UPSERT","540000405","38","U_SLD_Asset","Q","FMS_Filter_Asset","29","select ItemCode,ItemName,AssetSerNo
+from oitm
+where ItemType ='F'And validFor = 'Y'","","N","N","","","N"
+"UPSERT","540000405","38","U_SLD_BeforeVat","Q","BeforVAT","29","SELECT $[$38.20.NUMBER] / 1.07","","N","N","20","","N"
+"UPSERT","540000405","38","U_SLD_Cat_Name","Q","FMS_BPCatalogDes","29","SELECT T0.[Descriptio] 
+FROM OSCN T0 
+WHERE T0.[Substitute] = $[$38.2.0] 
+  AND T0.[CardCode] = $[$4.0.0]","","Y","C","2","","N"
+"UPSERT","540000405","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","11","","N"
+"UPSERT","540000405","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","15","","N"
+"UPSERT","540000405","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","U_SLD_Free","","N"
+"UPSERT","540000405","38","U_SLD_Dis_Amount","Q","FMS_Discount_PO","29","SELECT
+    CASE
+      WHEN ISNULL($[$38.15.NUMBER], 0) = 0
+        THEN 0
+      WHEN ISNULL($[$38.U_SLD_Unitprice.NUMBER], 0) = 0
+        OR ISNULL($[$38.11.NUMBER], 0) = 0
+        THEN 0
+      ELSE
+        CAST(
+          ($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER]
+          * $[$38.15.NUMBER] / 100
+          AS DECIMAL(19,6))
+    END","","N","N","U_SLD_Unitprice","","N"
+"UPSERT","540000405","38","U_SLD_T_BeDis","Q","FMS_Price_Total_PO","29","SELECT CAST(($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER] AS numeric(19,6))","","Y","N","11","","N"
+"UPSERT","540000405","38","U_SLD_T_BeDis","Q","FMS_Price_Total_PO","29","SELECT CAST(($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER] AS numeric(19,6))","","Y","N","U_SLD_Free","","N"
+"UPSERT","540000405","38","U_SLD_T_BeDis","Q","FMS_Price_Total_PO","29","SELECT CAST(($[$38.11.NUMBER] - ISNULL($[$38.U_SLD_Free.NUMBER],0)) * $[$38.U_SLD_Unitprice.NUMBER] AS numeric(19,6))","","Y","N","U_SLD_Unitprice","","N"
+"UPSERT","540000405","38","U_SLD_Tax_Form","Q","FMS_TaxGroup","29","SELECT T0.[Code] AS 'Tax Group',
+T0.[Name] AS 'Description', T0.[Rate] AS 'Tax Rate (%)' 
+FROM OVTG T0
+WHERE T0.[Category] = 'I' AND T0.[Inactive] = 'N'","","N","N","","","N"
+"UPSERT","540000405","38","U_SLD_Unitprice","Q","FMS_Default","29","SELECT T0.PriceFROM ITM1 T0WHERE T0.ItemCode = $[$38.1.0]AND T0.PriceList = '1'","","Y","N","1","","N"

@@ -153,3 +153,14 @@
 [2026-06-22 00:22:39] [INFO] Read 83 CSHS rows; expanded to 123 CSV rows
 [2026-06-22 00:22:39] [INFO] === Done. Exported 123 records ===
 [2026-06-22 00:22:39] [INFO] Output: C:\GitHub\SBO_Seoul\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260622_002238.csv
+[2026-06-24 01:13:29] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-06-24 01:13:29] [INFO] Server   : 172.17.0.22
+[2026-06-24 01:13:29] [INFO] CompanyDB: SBO_Seoul_Clinic
+[2026-06-24 01:13:29] [INFO] OutFile  : C:\GitHub\SBO_Seoul\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260624_011329.csv
+[2026-06-24 01:13:29] [INFO] Connected to SQL: 172.17.0.22 / SBO_Seoul_Clinic
+[2026-06-24 01:13:29] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-06-24 01:13:30] [INFO] Loaded 323 saved queries from OUQR
+[2026-06-24 01:13:30] [INFO] Loaded SHS1 triggers for 57 CSHS row(s)
+[2026-06-24 01:13:30] [INFO] Read 103 CSHS rows; expanded to 151 CSV rows
+[2026-06-24 01:13:30] [INFO] === Done. Exported 151 records ===
+[2026-06-24 01:13:30] [INFO] Output: C:\GitHub\SBO_Seoul\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260624_011329.csv
