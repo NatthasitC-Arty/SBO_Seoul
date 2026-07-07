@@ -1,0 +1,13 @@
+﻿[2026-07-07 15:54:07][INFO] === Set-DatasourceLocation start ===
+[2026-07-07 15:54:07][INFO] Path=C:\GitHub\SBO_Seoul\Form-Layout\9.TST\SQL_TST  NewServer=172.17.0.22  OldServer=  NewDatabase=SBO_Seoul_Clinic  NewUser=  WhatIf=False
+[2026-07-07 15:54:07][INFO] Found 1 report file(s).
+[2026-07-07 15:54:07][INFO] --> C:\GitHub\SBO_Seoul\Form-Layout\9.TST\SQL_TST\Withholding Tax certificate (53) v29.rpt
+[2026-07-07 15:54:09][OK]   [main] 'Detail' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-07-07 15:54:09][OK]   [main] 'Header' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-07-07 15:54:09][OK]   [sub:WhtDetail] 'PD5350' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-07-07 15:54:09][OK]   [sub:WhtDetail.rpt] 'PD5350' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-07-07 15:54:09][OK]   [sub:WhtDetail.rpt - 01] 'PD5350' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-07-07 15:54:09][OK]   [sub:WhtDetail1.rpt] 'PD5350' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-07-07 15:54:09][OK]   [sub:WhtDetail2.rpt] 'PD5350' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic -> SBO_Seoul_Clinic
+[2026-07-07 15:54:09][OK]   saved 7 table(s)
+[2026-07-07 15:54:09][INFO] === Done. ok=1  err=0  skipped=0  total=1 ===
