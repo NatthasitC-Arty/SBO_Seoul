@@ -1,7 +1,7 @@
 ﻿-- ============================================================
--- Report: 1.Purchase Order_TH_ใบสั่งซื้อ.rpt
-Path:   1.Purchase Order_TH_ใบสั่งซื้อ.rpt
-Extracted: 2026-06-16 17:07:12
+-- Report: Purchase Order_Non_Vat.rpt
+Path:   Purchase Order_Non_Vat.rpt
+Extracted: 2026-07-28 00:21:43
 -- Source: Subreport [Remark]
 -- Table:  Command
 -- ============================================================

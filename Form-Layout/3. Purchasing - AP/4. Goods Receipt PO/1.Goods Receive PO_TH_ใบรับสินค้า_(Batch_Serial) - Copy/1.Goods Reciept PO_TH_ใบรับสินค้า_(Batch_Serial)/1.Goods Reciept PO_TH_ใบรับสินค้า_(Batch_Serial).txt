@@ -1,7 +1,7 @@
 ﻿============================================================
-Report: 2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial).rpt
-Path:   5. Inventory\2. Goods Issue\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial).rpt
-Extracted: 2026-04-09 15:22:49
+Report: 1.Goods Reciept PO_TH_ใบรับสินค้า_(Batch_Serial).rpt
+Path:   1.Goods Reciept PO_TH_ใบรับสินค้า_(Batch_Serial).rpt
+Extracted: 2026-07-28 00:22:58
 ============================================================
 
 ************************************************************
@@ -16,19 +16,38 @@ Parameter: (error)
 ************************************************************
   FORMULA FIELDS
 ************************************************************
-(No formula fields)
+Formula: {@No}
+--- BEGIN ---
+{AP_GRPO_BN.No.} + 1
+--- END ---
+
+Formula: {@page}
+--- BEGIN ---
+"หน้า " & ToText(PageNumber, 0) & " / " & ToText(TotalPageCount, 0)
+--- END ---
+
 
 ************************************************************
   CONNECTION INFO
 ************************************************************
-Table:    G_Issue_BS
-  Server:   10.10.10.115
-  Database: SBO_SDA_MARK1
+Table:    AP_GRPO_BN
+  Server:   172.17.0.22
+  Database: SBO_Seoul_Clinic
+  UserID:   sa
+
+Table:    Address
+  Server:   172.17.0.22
+  Database: SBO_Seoul_Clinic
+  UserID:   sa
+
+Table:    Create
+  Server:   172.17.0.22
+  Database: SBO_Seoul_Clinic
   UserID:   sa
 
 Table:    Command
-  Server:   10.10.10.115
-  Database: SBO_SDA_MARK1
+  Server:   172.17.0.22
+  Database: SBO_Seoul_Clinic
   UserID:   sa
 
 

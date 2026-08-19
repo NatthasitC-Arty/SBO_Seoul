@@ -1,7 +1,7 @@
 ﻿============================================================
-Report: 1.Purchase Order_TH_ใบสั่งซื้อ.rpt
-Path:   1.Purchase Order_TH_ใบสั่งซื้อ.rpt
-Extracted: 2026-06-16 17:07:12
+Report: Purchase Order_Vat_Show.rpt
+Path:   Purchase Order_Vat_Show.rpt
+Extracted: 2026-07-28 00:21:44
 ============================================================
 
 ************************************************************
@@ -89,7 +89,7 @@ Else
 
 Formula: {@subtotal}
 --- BEGIN ---
-Sum ({AP_PO.LineTotal})-Sum ({AP_PO.DiscSum})
+Sum ({AP_PO.LineTotal})- ({AP_PO.DiscSum})
 --- END ---
 
 Formula: {@page}
@@ -105,23 +105,38 @@ Else
     ToText({AP_PO.DiscPrcnt}, 0) + "%"
 --- END ---
 
+Formula: {@VATSUM}
+--- BEGIN ---
+({AP_PO.ไม่มีเงื่อนไข}* 7/107)
+--- END ---
+
+Formula: {@BF VAT}
+--- BEGIN ---
+({AP_PO.ไม่มีเงื่อนไข} * 100/107)
+--- END ---
+
+Formula: {@BF DIS}
+--- BEGIN ---
+{@BF VAT} - {AP_PO.DiscSum}
+--- END ---
+
 
 ************************************************************
   CONNECTION INFO
 ************************************************************
 Table:    AP_PO
   Server:   172.17.0.22
-  Database: SBO_Seoul_Key
+  Database: SBO_Seoul_Clinic
   UserID:   sa
 
 Table:    Address
   Server:   172.17.0.22
-  Database: SBO_Seoul_Key
+  Database: SBO_Seoul_Clinic
   UserID:   sa
 
 Table:    Create
   Server:   172.17.0.22
-  Database: SBO_Seoul_Key
+  Database: SBO_Seoul_Clinic
   UserID:   sa
 
 
